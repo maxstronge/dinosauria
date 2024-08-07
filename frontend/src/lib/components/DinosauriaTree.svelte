@@ -18,6 +18,7 @@
     const BASE_NODE_RADIUS = 10;
     const LABEL_OFFSET_X = 15;
     const LABEL_OFFSET_Y = 5;
+    const HIGHLIGHT_COLOR = "#e0e0e0";
 
     // Force simulation parameters
     const linkDistance = 1;
@@ -114,7 +115,9 @@
             .data(nodes)
             .join("circle")
             .attr("fill", (d: any) => d.children ? "#555" : "#999") // Different color for leaf nodes
-            .attr("r", BASE_NODE_RADIUS);
+            .attr("r", BASE_NODE_RADIUS)
+            .on("mouseover", handleMouseOver)
+            .on("mouseout", handleMouseOut);
 
         // Add text labels for nodes
         const label = g.append("g")
@@ -237,6 +240,22 @@
             });
         }
         node.call(dragBehavior as any);
+
+        function handleMouseOver(event: any, d: any) {
+            const nodeElement = d3.select(event.target);
+            const labelElement = label.filter((labelD: any) => labelD.data.name === d.data.name);
+
+            nodeElement.attr("fill", HIGHLIGHT_COLOR);
+            labelElement.attr("fill", HIGHLIGHT_COLOR);
+        }
+
+        function handleMouseOut(event: any, d: any) {
+            const nodeElement = d3.select(event.target);
+            const labelElement = label.filter((labelD: any) => labelD.data.name === d.data.name);
+
+            nodeElement.attr("fill", (d: any) => d.children ? "#555" : "#999");
+            labelElement.attr("fill", "#fff");
+        }
 
         return simulation;
     }
