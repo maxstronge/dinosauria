@@ -1,0 +1,5337 @@
+[
+  {
+    "name": "Abditosaurus kuehnei",
+    "accepted_name": "Abditosaurus kuehnei",
+    "length": "9.00 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Abrosaurus dongpoensis",
+    "accepted_name": "Abrosaurus dongpoensis",
+    "length": "7.00 - 12.00 meters",
+    "weight": "900.00 - 2600.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Achelousaurus horneri",
+    "accepted_name": "Achelousaurus horneri",
+    "length": "6.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Actiosaurus gaudryi",
+    "accepted_name": "Actiosaurus gaudryi",
+    "length": "5.00 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Adamantisaurus mezzalirai",
+    "accepted_name": "Adamantisaurus mezzalirai",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Aegyptosaurus baharijensis",
+    "accepted_name": "Aegyptosaurus baharijensis",
+    "length": "15.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Aeolosaurus colhuehuapensis",
+    "accepted_name": "Aeolosaurus colhuehuapensis",
+    "length": "7.50 meters",
+    "weight": "11000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aeolosaurus rionegrinus",
+    "accepted_name": "Aeolosaurus rionegrinus",
+    "length": "15.00 meters",
+    "weight": "9100.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Agilisaurus louderbacki",
+    "accepted_name": "Agilisaurus louderbacki",
+    "length": "1.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Agujaceratops mariscalensis",
+    "accepted_name": "Agujaceratops mariscalensis",
+    "length": "5.10 meters",
+    "weight": "2900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ajkaceratops kozmai",
+    "accepted_name": "Ajkaceratops kozmai",
+    "length": "5.00 - 5.20 meters",
+    "weight": "2600.00 - 3200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Alamosaurus sanjuanensis",
+    "accepted_name": "Alamosaurus sanjuanensis",
+    "length": "21.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Alaskacephale gangloffi",
+    "accepted_name": "Alaskacephale gangloffi",
+    "length": "1.80 meters",
+    "weight": "49.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Albertaceratops nesmoi",
+    "accepted_name": "Albertaceratops nesmoi",
+    "length": "5.80 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Altirhinus kurzanovi",
+    "accepted_name": "Altirhinus kurzanovi",
+    "length": "7.50 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Alwalkeria maleriensis",
+    "accepted_name": "Alwalkeria maleriensis",
+    "length": "1.30 meters",
+    "weight": "55.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amargasaurus cazaui",
+    "accepted_name": "Amargasaurus cazaui",
+    "length": "8.50 meters",
+    "weight": "3900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amargasaurus groeberi",
+    "accepted_name": "Amargasaurus groeberi",
+    "length": "8.00 - 9.00 meters",
+    "weight": "3000.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Amargatitanis macni",
+    "accepted_name": "Amargatitanis macni",
+    "length": "6.00 meters",
+    "weight": "2400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amazonsaurus maranhensis",
+    "accepted_name": "Amazonsaurus maranhensis",
+    "length": "10.00 meters",
+    "weight": "5500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ammosaurus major",
+    "accepted_name": "Ammosaurus major",
+    "length": "4.00 meters",
+    "weight": "340.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ammosaurus solus",
+    "accepted_name": "Ammosaurus solus",
+    "length": "4.00 meters",
+    "weight": "280.00 - 400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Ampelosaurus atacis",
+    "accepted_name": "Ampelosaurus atacis",
+    "length": "19.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amphicoelias altus",
+    "accepted_name": "Amphicoelias altus",
+    "length": "48.00 meters",
+    "weight": "95000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amphicoelias brontodiplodocus",
+    "accepted_name": "Amphicoelias brontodiplodocus",
+    "length": "40.00 - 55.00 meters",
+    "weight": "82000.00 - 109000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Amphicoelias latus",
+    "accepted_name": "Amphicoelias latus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Amurosaurus riabinini",
+    "accepted_name": "Amurosaurus riabinini",
+    "length": "6.70 meters",
+    "weight": "900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Amygdalodon patagonicus",
+    "accepted_name": "Amygdalodon patagonicus",
+    "length": "15.00 meters",
+    "weight": "12.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anabisetia saldiviai",
+    "accepted_name": "Anabisetia saldiviai",
+    "length": "2.00 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anasazisaurus horneri",
+    "accepted_name": "Anasazisaurus horneri",
+    "length": "10.00 meters",
+    "weight": "3500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anatosaurus copei",
+    "accepted_name": "Anatosaurus copei",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Anchiceratops longirostris",
+    "accepted_name": "Anchiceratops longirostris",
+    "length": "5.00 - 6.00 meters",
+    "weight": "2500.00 - 3800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Anchiceratops ornatus",
+    "accepted_name": "Anchiceratops ornatus",
+    "length": "5.50 meters",
+    "weight": "3200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anchisaurus colurus",
+    "accepted_name": "Anchisaurus colurus",
+    "length": "2.00 - 2.50 meters",
+    "weight": "30.00 - 75.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Anchisaurus polyzelus",
+    "accepted_name": "Anchisaurus polyzelus",
+    "length": "2.30 meters",
+    "weight": "52.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Andesaurus delgadoi",
+    "accepted_name": "Andesaurus delgadoi",
+    "length": "7.00 - 12.00 meters",
+    "weight": "900.00 - 2600.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Animantarx ramaljonesi",
+    "accepted_name": "Animantarx ramaljonesi",
+    "length": "3.00 meters",
+    "weight": "1600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ankylosaurus magniventris",
+    "accepted_name": "Ankylosaurus magniventris",
+    "length": "8.70 meters",
+    "weight": "6900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anoplosaurus curtonotus",
+    "accepted_name": "Anoplosaurus curtonotus",
+    "length": "5.60 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Antarctosaurus wichmannianus",
+    "accepted_name": "Antarctosaurus wichmannianus",
+    "length": "21.00 meters",
+    "weight": "43000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Antetonitrus ingenipes",
+    "accepted_name": "Antetonitrus ingenipes",
+    "length": "9.00 meters",
+    "weight": "1700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Apatosaurus ajax",
+    "accepted_name": "Apatosaurus ajax",
+    "length": "22.00 meters",
+    "weight": "24000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Apatosaurus laticollis",
+    "accepted_name": "Apatosaurus laticollis",
+    "length": "17.00 - 25.00 meters",
+    "weight": "14000.00 - 27000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Apatosaurus louisae",
+    "accepted_name": "Apatosaurus louisae",
+    "length": "22.00 meters",
+    "weight": "24000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aragosaurus ischiaticus",
+    "accepted_name": "Aragosaurus ischiaticus",
+    "length": "16.00 meters",
+    "weight": "18000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aralosaurus tuberiferus",
+    "accepted_name": "Aralosaurus tuberiferus",
+    "length": "8.50 meters",
+    "weight": "5100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeoceratops oshimai",
+    "accepted_name": "Archaeoceratops oshimai",
+    "length": "1.00 meter",
+    "weight": "50.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeoceratops yujingziensis",
+    "accepted_name": "Archaeoceratops yujingziensis",
+    "length": "1.00 meter",
+    "weight": "40.00 - 60.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Archaeodontosaurus descouensi",
+    "accepted_name": "Archaeodontosaurus descouensi",
+    "length": "12.00 meters",
+    "weight": "4100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Arcusaurus pereirabdalorum",
+    "accepted_name": "Arcusaurus pereirabdalorum",
+    "length": "2.00 - 2.50 meters",
+    "weight": "30.00 - 75.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Argentinosaurus huinculensis",
+    "accepted_name": "Argentinosaurus huinculensis",
+    "length": "37.00 meters",
+    "weight": "75000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Argyrosaurus superbus",
+    "accepted_name": "Argyrosaurus superbus",
+    "length": "25.00 meters",
+    "weight": "57000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Arrhinoceratops brachyops",
+    "accepted_name": "Arrhinoceratops brachyops",
+    "length": "8.50 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Asylosaurus yalensis",
+    "accepted_name": "Asylosaurus yalensis",
+    "length": "15.00 meters",
+    "weight": "9100.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Atlasaurus imelakei",
+    "accepted_name": "Atlasaurus imelakei",
+    "length": "17.00 meters",
+    "weight": "17000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Atlascopcosaurus loadsi",
+    "accepted_name": "Atlascopcosaurus loadsi",
+    "length": "2.70 meters",
+    "weight": "30.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Australodocus bohetii",
+    "accepted_name": "Australodocus bohetii",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Austrosaurus mckillopi",
+    "accepted_name": "Austrosaurus mckillopi",
+    "length": "13.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Avaceratops lammersi",
+    "accepted_name": "Avaceratops lammersi",
+    "length": "3.80 meters",
+    "weight": "300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bactrosaurus johnsoni",
+    "accepted_name": "Bactrosaurus johnsoni",
+    "length": "6.30 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bagaceratops rozhdestvenskyi",
+    "accepted_name": "Bagaceratops rozhdestvenskyi",
+    "length": "1.00 meter",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Bagualosaurus agudoensis",
+    "accepted_name": "Bagualosaurus agudoensis",
+    "length": "6.00 - 6.50 meters",
+    "weight": "5400.00 - 6400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Bainoceratops efremovi",
+    "accepted_name": "Bainoceratops efremovi",
+    "length": "3.10 meters",
+    "weight": "75.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Baiyinosaurus baojiensis",
+    "accepted_name": "Baiyinosaurus baojiensis",
+    "length": "2.00 - 2.30 meters",
+    "weight": "60.00 - 100.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Barapasaurus tagorei",
+    "accepted_name": "Barapasaurus tagorei",
+    "length": "19.00 meters",
+    "weight": "15000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Barosaurus lentus",
+    "accepted_name": "Barosaurus lentus",
+    "length": "28.00 meters",
+    "weight": "20000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Barsboldia sicinskii",
+    "accepted_name": "Barsboldia sicinskii",
+    "length": "8.00 meters",
+    "weight": "3400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bashanosaurus primitivus",
+    "accepted_name": "Bashanosaurus primitivus",
+    "length": "2.00 meters",
+    "weight": "80.00 - 90.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Batyrosaurus rozhdestvenskyi",
+    "accepted_name": "Batyrosaurus rozhdestvenskyi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Bellusaurus sui",
+    "accepted_name": "Bellusaurus sui",
+    "length": "4.50 meters",
+    "weight": "480.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bissektipelta archibaldi",
+    "accepted_name": "Bissektipelta archibaldi",
+    "length": "6.50 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Blikanasaurus cromptoni",
+    "accepted_name": "Blikanasaurus cromptoni",
+    "length": "5.00 meters",
+    "weight": "470.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bonatitan reigi",
+    "accepted_name": "Bonatitan reigi",
+    "length": "6.00 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bonitasaura salgadoi",
+    "accepted_name": "Bonitasaura salgadoi",
+    "length": "9.00 meters",
+    "weight": "8500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Borealosaurus wimani",
+    "accepted_name": "Borealosaurus wimani",
+    "length": "6.30 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Brachiosaurus (Giraffatitan) brancai",
+    "accepted_name": "Brachiosaurus (Giraffatitan) brancai",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Brachiosaurus altithorax",
+    "accepted_name": "Brachiosaurus altithorax",
+    "length": "22.00 meters",
+    "weight": "36000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Brachiosaurus fraasi",
+    "accepted_name": "Brachiosaurus fraasi",
+    "length": "19.00 - 27.00 meters",
+    "weight": "25000.00 - 47000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Brachylophosaurus canadensis",
+    "accepted_name": "Brachylophosaurus canadensis",
+    "length": "7.30 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Brachylophosaurus goodwini",
+    "accepted_name": "Brachylophosaurus goodwini",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Brachytrachelopan mesai",
+    "accepted_name": "Brachytrachelopan mesai",
+    "length": "5.00 meters",
+    "weight": "3600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Brontosaurus amplus",
+    "accepted_name": "Brontosaurus amplus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Brontosaurus excelsus",
+    "accepted_name": "Brontosaurus excelsus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Brontosaurus parvus",
+    "accepted_name": "Brontosaurus parvus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Brontosaurus yahnahpin",
+    "accepted_name": "Brontosaurus yahnahpin",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camarasaurus annae",
+    "accepted_name": "Camarasaurus annae",
+    "length": "18.00 - 23.00 meters",
+    "weight": "14000.00 - 19000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Camarasaurus grandis",
+    "accepted_name": "Camarasaurus grandis",
+    "length": "23.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camarasaurus lentus",
+    "accepted_name": "Camarasaurus lentus",
+    "length": "23.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camarasaurus leptodirus",
+    "accepted_name": "Camarasaurus leptodirus",
+    "length": "18.00 - 23.00 meters",
+    "weight": "14000.00 - 19000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Camarasaurus lewisi",
+    "accepted_name": "Camarasaurus lewisi",
+    "length": "23.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camarasaurus supremus",
+    "accepted_name": "Camarasaurus supremus",
+    "length": "20.00 meters",
+    "weight": "16000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Camelotia borealis",
+    "accepted_name": "Camelotia borealis",
+    "length": "7.80 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Camptosaurus aphanoecetes",
+    "accepted_name": "Camptosaurus aphanoecetes",
+    "length": "5.00 - 7.50 meters",
+    "weight": "400.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Camptosaurus browni",
+    "accepted_name": "Camptosaurus browni",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camptosaurus dispar",
+    "accepted_name": "Camptosaurus dispar",
+    "length": "6.30 meters",
+    "weight": "650.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Camptosaurus inkeyi",
+    "accepted_name": "Camptosaurus inkeyi",
+    "length": "5.00 - 7.50 meters",
+    "weight": "400.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Camptosaurus medius",
+    "accepted_name": "Camptosaurus medius",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Camptosaurus nanus",
+    "accepted_name": "Camptosaurus nanus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Cardiodon rugulosus",
+    "accepted_name": "Cardiodon rugulosus",
+    "length": "10.00 meters",
+    "weight": "9500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cathartesaura anaerobica",
+    "accepted_name": "Cathartesaura anaerobica",
+    "length": "16.00 meters",
+    "weight": "10000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cedarosaurus weiskopfae",
+    "accepted_name": "Cedarosaurus weiskopfae",
+    "length": "15.00 meters",
+    "weight": "28000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cedarpelta bilbeyhallorum",
+    "accepted_name": "Cedarpelta bilbeyhallorum",
+    "length": "9.50 meters",
+    "weight": "6600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cedrorestes crichtoni",
+    "accepted_name": "Cedrorestes crichtoni",
+    "length": "3.00 meters",
+    "weight": "650.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Centrosaurus apertus",
+    "accepted_name": "Centrosaurus apertus",
+    "length": "3.00 meters",
+    "weight": "1800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Centrosaurus longirostris",
+    "accepted_name": "Centrosaurus longirostris",
+    "length": "6.00 meters",
+    "weight": "910.00 - 3600.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Cerasinops hodgskissi",
+    "accepted_name": "Cerasinops hodgskissi",
+    "length": "2.00 meters",
+    "weight": "18.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cetiosauriscus stewarti",
+    "accepted_name": "Cetiosauriscus stewarti",
+    "length": "15.00 meters",
+    "weight": "15000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cetiosaurus giganteus",
+    "accepted_name": "Cetiosaurus giganteus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Cetiosaurus oxoniensis",
+    "accepted_name": "Cetiosaurus oxoniensis",
+    "length": "18.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cetiosaurus philippsii",
+    "accepted_name": "Cetiosaurus philippsii",
+    "length": "15.00 - 18.00 meters",
+    "weight": "13000.00 - 36000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Changchunsaurus parvus",
+    "accepted_name": "Changchunsaurus parvus",
+    "length": "0.50 meters",
+    "weight": "18.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chaoyangosaurus liaosiensis",
+    "accepted_name": "Chaoyangosaurus liaosiensis",
+    "length": "0.50 - 0.70 meters",
+    "weight": "40.00 - 50.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Chaoyangsaurus youngi",
+    "accepted_name": "Chaoyangsaurus youngi",
+    "length": "0.60 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Charonosaurus jiayinensis",
+    "accepted_name": "Charonosaurus jiayinensis",
+    "length": "13.00 meters",
+    "weight": "1600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chasmosaurus belli",
+    "accepted_name": "Chasmosaurus belli",
+    "length": "5.30 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chasmosaurus russelli",
+    "accepted_name": "Chasmosaurus russelli",
+    "length": "6.10 meters",
+    "weight": "3200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chebsaurus algeriensis",
+    "accepted_name": "Chebsaurus algeriensis",
+    "length": "8.50 meters",
+    "weight": "3600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cheneosaurus tolmanensis",
+    "accepted_name": "Cheneosaurus tolmanensis",
+    "length": "6.00 meters",
+    "weight": "910.00 - 3600.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Chinshakiangosaurus chunghoensis",
+    "accepted_name": "Chinshakiangosaurus chunghoensis",
+    "length": "12.00 meters",
+    "weight": "4100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chuanjiesaurus anaensis",
+    "accepted_name": "Chuanjiesaurus anaensis",
+    "length": "16.00 meters",
+    "weight": "20000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chubutisaurus insignis",
+    "accepted_name": "Chubutisaurus insignis",
+    "length": "22.00 meters",
+    "weight": "30000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chungkingosaurus giganticus",
+    "accepted_name": "Chungkingosaurus giganticus",
+    "length": "3.80 - 4.10 meters",
+    "weight": "800.00 - 1000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Chungkingosaurus jiangbeiensis",
+    "accepted_name": "Chungkingosaurus jiangbeiensis",
+    "length": "4.00 meters",
+    "weight": "900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chungkingosaurus magnus",
+    "accepted_name": "Chungkingosaurus magnus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Claosaurus agilis",
+    "accepted_name": "Claosaurus agilis",
+    "length": "3.90 meters",
+    "weight": "850.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Coloradisaurus brevis",
+    "accepted_name": "Coloradisaurus brevis",
+    "length": "3.50 meters",
+    "weight": "290.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Comptonatus chasei",
+    "accepted_name": "Comptonatus chasei",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Coronosaurus brinkmani",
+    "accepted_name": "Coronosaurus brinkmani",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Corythosaurus bicristatus",
+    "accepted_name": "Corythosaurus bicristatus",
+    "length": "9.00 - 10.00 meters",
+    "weight": "4500.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Corythosaurus brevicristatus",
+    "accepted_name": "Corythosaurus brevicristatus",
+    "length": "9.00 - 10.00 meters",
+    "weight": "4500.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Corythosaurus casuarius",
+    "accepted_name": "Corythosaurus casuarius",
+    "length": "9.50 meters",
+    "weight": "4600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Corythosaurus excavatus",
+    "accepted_name": "Corythosaurus excavatus",
+    "length": "9.00 - 10.00 meters",
+    "weight": "4500.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Corythosaurus frontalis",
+    "accepted_name": "Corythosaurus frontalis",
+    "length": "9.00 - 10.00 meters",
+    "weight": "4500.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Corythosaurus intermedius",
+    "accepted_name": "Corythosaurus intermedius",
+    "length": "9.00 - 10.00 meters",
+    "weight": "4500.00 - 4700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Craspedodon lonzeensis",
+    "accepted_name": "Craspedodon lonzeensis",
+    "length": "6.30 meters",
+    "weight": "2600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cumnoria prestwichii",
+    "accepted_name": "Cumnoria prestwichii",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Daanosaurus zhangi",
+    "accepted_name": "Daanosaurus zhangi",
+    "length": "5.00 meters",
+    "weight": "6800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dacentrurus armatus",
+    "accepted_name": "Dacentrurus armatus",
+    "length": "5.70 meters",
+    "weight": "1700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Datousaurus bashanensis",
+    "accepted_name": "Datousaurus bashanensis",
+    "length": "14.00 meters",
+    "weight": "19000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dicraeosaurus hansemanni",
+    "accepted_name": "Dicraeosaurus hansemanni",
+    "length": "16.00 meters",
+    "weight": "9100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dicraeosaurus sattleri",
+    "accepted_name": "Dicraeosaurus sattleri",
+    "length": "16.00 meters",
+    "weight": "9100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dinheirosaurus lourinhanensis",
+    "accepted_name": "Dinheirosaurus lourinhanensis",
+    "length": "20.00 meters",
+    "weight": "10000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Diplodocus carnegii",
+    "accepted_name": "Diplodocus carnegii",
+    "length": "28.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Diplodocus hallorum",
+    "accepted_name": "Diplodocus hallorum",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Diplodocus longus",
+    "accepted_name": "Diplodocus longus",
+    "length": "26.00 meters",
+    "weight": "11000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Draconyx loureiroi",
+    "accepted_name": "Draconyx loureiroi",
+    "length": "7.00 meters",
+    "weight": "2400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dracopelta zbyszewskii",
+    "accepted_name": "Dracopelta zbyszewskii",
+    "length": "2.10 meters",
+    "weight": "90.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dracorex hogwartsia",
+    "accepted_name": "Dracorex hogwartsia",
+    "length": "1.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Drinker nisti",
+    "accepted_name": "Drinker nisti",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dryosaurus altus",
+    "accepted_name": "Dryosaurus altus",
+    "length": "3.50 meters",
+    "weight": "80.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dryosaurus elderae",
+    "accepted_name": "Dryosaurus elderae",
+    "length": "3.00 - 5.00 meters",
+    "weight": "70.00 - 550.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Dyoplosaurus acutosquameus",
+    "accepted_name": "Dyoplosaurus acutosquameus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Dysalotosaurus lettowvorbecki",
+    "accepted_name": "Dysalotosaurus lettowvorbecki",
+    "length": "4.00 meters",
+    "weight": "85.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dyslocosaurus polyonychius",
+    "accepted_name": "Dyslocosaurus polyonychius",
+    "length": "18.00 meters",
+    "weight": "9500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dystrophaeus viaemalae",
+    "accepted_name": "Dystrophaeus viaemalae",
+    "length": "12.00 meters",
+    "weight": "6400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dystylosaurus edwini",
+    "accepted_name": "Dystylosaurus edwini",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Echinodon becklesii",
+    "accepted_name": "Echinodon becklesii",
+    "length": "0.55 meters",
+    "weight": "2.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Edmontonia australis",
+    "accepted_name": "Edmontonia australis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Edmontonia longiceps",
+    "accepted_name": "Edmontonia longiceps",
+    "length": "6.50 meters",
+    "weight": "4500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Edmontosaurus annectens",
+    "accepted_name": "Edmontosaurus annectens",
+    "length": "13.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Edmontosaurus edmontoni",
+    "accepted_name": "Edmontosaurus edmontoni",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Edmontosaurus regalis",
+    "accepted_name": "Edmontosaurus regalis",
+    "length": "13.00 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Edmontosaurus saskatchewanensis",
+    "accepted_name": "Edmontosaurus saskatchewanensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Efraasia minor",
+    "accepted_name": "Efraasia minor",
+    "length": "2.50 - 5.00 meters",
+    "weight": "400.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Einiosaurus procurvicornis",
+    "accepted_name": "Einiosaurus procurvicornis",
+    "length": "7.40 meters",
+    "weight": "4300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Elrhazosaurus nigeriensis",
+    "accepted_name": "Elrhazosaurus nigeriensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Emausaurus ernsti",
+    "accepted_name": "Emausaurus ernsti",
+    "length": "2.10 meters",
+    "weight": "35.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eocursor parvus",
+    "accepted_name": "Eocursor parvus",
+    "length": "0.95 meters",
+    "weight": "18.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eolambia caroljonesa",
+    "accepted_name": "Eolambia caroljonesa",
+    "length": "8.50 meters",
+    "weight": "3200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eomamenchisaurus yuanmouensis",
+    "accepted_name": "Eomamenchisaurus yuanmouensis",
+    "length": "21.00 - 26.00 meters",
+    "weight": "22.00 - 22000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Eoraptor lunensis",
+    "accepted_name": "Eoraptor lunensis",
+    "length": "1.00 meter",
+    "weight": "12.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eotriceratops xerinsularis",
+    "accepted_name": "Eotriceratops xerinsularis",
+    "length": "11.00 meters",
+    "weight": "12000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Epachthosaurus sciuttoi",
+    "accepted_name": "Epachthosaurus sciuttoi",
+    "length": "18.00 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Equijubus normani",
+    "accepted_name": "Equijubus normani",
+    "length": "10.00 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Erketu ellisoni",
+    "accepted_name": "Erketu ellisoni",
+    "length": "7.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Eucnemesaurus entaxonis",
+    "accepted_name": "Eucnemesaurus entaxonis",
+    "length": "10.00 - 11.00 meters",
+    "weight": "1400.00 - 1700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Eucnemesaurus fortis",
+    "accepted_name": "Eucnemesaurus fortis",
+    "length": "11.00 meters",
+    "weight": "1500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Euoplocephalus tutus",
+    "accepted_name": "Euoplocephalus tutus",
+    "length": "5.50 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Europasaurus holgeri",
+    "accepted_name": "Europasaurus holgeri",
+    "length": "4.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Ferganasaurus verzilini",
+    "accepted_name": "Ferganasaurus verzilini",
+    "length": "16.00 meters",
+    "weight": "24000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Fukuisaurus tetoriensis",
+    "accepted_name": "Fukuisaurus tetoriensis",
+    "length": "5.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Fulgurotherium australe",
+    "accepted_name": "Fulgurotherium australe",
+    "length": "1.80 meters",
+    "weight": "38.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Fushanosaurus qitaiensis",
+    "accepted_name": "Fushanosaurus qitaiensis",
+    "length": "2.00 meters",
+    "weight": "80.00 - 90.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Fusuisaurus zhaoi",
+    "accepted_name": "Fusuisaurus zhaoi",
+    "length": "4.70 - 5.00 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Futalognkosaurus dukei",
+    "accepted_name": "Futalognkosaurus dukei",
+    "length": "33.00 meters",
+    "weight": "70000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Galleonosaurus dorisae",
+    "accepted_name": "Galleonosaurus dorisae",
+    "length": "19.00 - 22.00 meters",
+    "weight": "45000.00 - 54000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Galveosaurus herreroi",
+    "accepted_name": "Galveosaurus herreroi",
+    "length": "20.00 meters",
+    "weight": "50000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Galvesaurus herreroi",
+    "accepted_name": "Galvesaurus herreroi",
+    "length": "20.00 meters",
+    "weight": "50000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gargoyleosaurus parkpinorum",
+    "accepted_name": "Gargoyleosaurus parkpinorum",
+    "length": "4.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Gasparinisaura cincosaltensis",
+    "accepted_name": "Gasparinisaura cincosaltensis",
+    "length": "0.90 meters",
+    "weight": "40.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gastonia burgei",
+    "accepted_name": "Gastonia burgei",
+    "length": "3.50 meters",
+    "weight": "2400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gastonia lorriemcwhinneyae",
+    "accepted_name": "Gastonia lorriemcwhinneyae",
+    "length": "2.50 - 4.50 meters",
+    "weight": "1400.00 - 3400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Gilmoreosaurus mongoliensis",
+    "accepted_name": "Gilmoreosaurus mongoliensis",
+    "length": "8.00 meters",
+    "weight": "1800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Giraffatitan brancai",
+    "accepted_name": "Giraffatitan brancai",
+    "length": "23.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Gobisaurus domoculus",
+    "accepted_name": "Gobisaurus domoculus",
+    "length": "6.00 meters",
+    "weight": "1500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gobititan shenzhouensis",
+    "accepted_name": "Gobititan shenzhouensis",
+    "length": "11.00 meters",
+    "weight": "8200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gondwanatitan faustoi",
+    "accepted_name": "Gondwanatitan faustoi",
+    "length": "8.00 meters",
+    "weight": "9100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gongbusaurus shiyii",
+    "accepted_name": "Gongbusaurus shiyii",
+    "length": "1.00 - 1.50 meters",
+    "weight": "20.00 - 30.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Gongbusaurus wucaiwanensis",
+    "accepted_name": "Gongbusaurus wucaiwanensis",
+    "length": "1.30 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gongxianosaurus shibeiensis",
+    "accepted_name": "Gongxianosaurus shibeiensis",
+    "length": "14.00 meters",
+    "weight": "9500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Goyocephale lattimorei",
+    "accepted_name": "Goyocephale lattimorei",
+    "length": "1.50 - 2.00 meters",
+    "weight": "70.00 - 80.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Graciliceratops mongoliensis",
+    "accepted_name": "Graciliceratops mongoliensis",
+    "length": "1.20 meters",
+    "weight": "4.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gravitholus albertae",
+    "accepted_name": "Gravitholus albertae",
+    "length": "2.90 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gryposaurus alsatei",
+    "accepted_name": "Gryposaurus alsatei",
+    "length": "7.00 - 10.00 meters",
+    "weight": "1800.00 - 2700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Gryposaurus incurvimanus",
+    "accepted_name": "Gryposaurus incurvimanus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Gryposaurus latidens",
+    "accepted_name": "Gryposaurus latidens",
+    "length": "8.00 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gryposaurus monumentensis",
+    "accepted_name": "Gryposaurus monumentensis",
+    "length": "10.00 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gryposaurus notabilis",
+    "accepted_name": "Gryposaurus notabilis",
+    "length": "8.00 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gspsaurus pakistani",
+    "accepted_name": "Gspsaurus pakistani",
+    "length": "3.50 - 4.00 meters",
+    "weight": "150.00 - 220.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Guaibasaurus candelariensis",
+    "accepted_name": "Guaibasaurus candelariensis",
+    "length": "2.20 meters",
+    "weight": "100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gyposaurus sinensis",
+    "accepted_name": "Gyposaurus sinensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Hadrosaurus foulkii",
+    "accepted_name": "Hadrosaurus foulkii",
+    "length": "8.50 meters",
+    "weight": "4500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Haplocanthosaurus delfsi",
+    "accepted_name": "Haplocanthosaurus delfsi",
+    "length": "13.00 meters",
+    "weight": "6800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Haplocanthosaurus priscus",
+    "accepted_name": "Haplocanthosaurus priscus",
+    "length": "21.00 meters",
+    "weight": "15000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Haplocanthosaurus utterbacki",
+    "accepted_name": "Haplocanthosaurus utterbacki",
+    "length": "13.00 - 22.00 meters",
+    "weight": "6400.00 - 15000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Hesperosaurus mjosi",
+    "accepted_name": "Hesperosaurus mjosi",
+    "length": "7.00 meters",
+    "weight": "1500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Heterodontosaurus tucki",
+    "accepted_name": "Heterodontosaurus tucki",
+    "length": "1.20 meters",
+    "weight": "22.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hexinlusaurus multidens",
+    "accepted_name": "Hexinlusaurus multidens",
+    "length": "0.60 meters",
+    "weight": "52.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Homalocephale calathocercos",
+    "accepted_name": "Homalocephale calathocercos",
+    "length": "1.50 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hoplitosaurus marshi",
+    "accepted_name": "Hoplitosaurus marshi",
+    "length": "4.40 meters",
+    "weight": "400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Huabeisaurus allocotus",
+    "accepted_name": "Huabeisaurus allocotus",
+    "length": "20.00 meters",
+    "weight": "26000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Huallasaurus australis",
+    "accepted_name": "Huallasaurus australis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Huayangosaurus taibaii",
+    "accepted_name": "Huayangosaurus taibaii",
+    "length": "4.60 meters",
+    "weight": "930.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hudiesaurus sinojapanorum",
+    "accepted_name": "Hudiesaurus sinojapanorum",
+    "length": "30.00 meters",
+    "weight": "56000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hungarosaurus tormai",
+    "accepted_name": "Hungarosaurus tormai",
+    "length": "2.00 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hylaeosaurus armatus",
+    "accepted_name": "Hylaeosaurus armatus",
+    "length": "4.00 meters",
+    "weight": "1000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hylaeosaurus oweni",
+    "accepted_name": "Hylaeosaurus oweni",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Hypacrosaurus altispinus",
+    "accepted_name": "Hypacrosaurus altispinus",
+    "length": "9.00 meters",
+    "weight": "3.60 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hypacrosaurus stebingeri",
+    "accepted_name": "Hypacrosaurus stebingeri",
+    "length": "9.00 meters",
+    "weight": "2.70 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hypsilophodon foxii",
+    "accepted_name": "Hypsilophodon foxii",
+    "length": "2.30 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Iguanodon bernissartensis",
+    "accepted_name": "Iguanodon bernissartensis",
+    "length": "9.50 meters",
+    "weight": "4400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Iguanodon galvensis",
+    "accepted_name": "Iguanodon galvensis",
+    "length": "6.50 - 11.00 meters",
+    "weight": "2.60 - 5300.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Iguanodon major",
+    "accepted_name": "Iguanodon major",
+    "length": "6.50 - 11.00 meters",
+    "weight": "2.60 - 5300.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Iguanodon seelyi",
+    "accepted_name": "Iguanodon seelyi",
+    "length": "6.50 - 11.00 meters",
+    "weight": "2.60 - 5300.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Isanosaurus attavipachi",
+    "accepted_name": "Isanosaurus attavipachi",
+    "length": "6.50 meters",
+    "weight": "1900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Isisaurus colberti",
+    "accepted_name": "Isisaurus colberti",
+    "length": "19.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jainosaurus septentrionalis",
+    "accepted_name": "Jainosaurus septentrionalis",
+    "length": "18.00 meters",
+    "weight": "21.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Janenschia robusta",
+    "accepted_name": "Janenschia robusta",
+    "length": "25.00 meters",
+    "weight": "32000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jaxartosaurus aralensis",
+    "accepted_name": "Jaxartosaurus aralensis",
+    "length": "8.00 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jeholosaurus shangyuanensis",
+    "accepted_name": "Jeholosaurus shangyuanensis",
+    "length": "0.80 meters",
+    "weight": "11.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jiangjunosaurus junggarensis",
+    "accepted_name": "Jiangjunosaurus junggarensis",
+    "length": "9.00 meters",
+    "weight": "4100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jiangshanosaurus lixianensis",
+    "accepted_name": "Jiangshanosaurus lixianensis",
+    "length": "21.00 meters",
+    "weight": "26000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jingshanosaurus xinwaensis",
+    "accepted_name": "Jingshanosaurus xinwaensis",
+    "length": "7.50 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jinzhousaurus yangi",
+    "accepted_name": "Jinzhousaurus yangi",
+    "length": "6.00 meters",
+    "weight": "1300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Jobaria tiguidensis",
+    "accepted_name": "Jobaria tiguidensis",
+    "length": "20.00 meters",
+    "weight": "14000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Judiceratops tigris",
+    "accepted_name": "Judiceratops tigris",
+    "length": "8.00 - 9.00 meters",
+    "weight": "7300.00 - 9100.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Kentrosaurus aethiopicus",
+    "accepted_name": "Kentrosaurus aethiopicus",
+    "length": "4.50 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kerberosaurus manakini",
+    "accepted_name": "Kerberosaurus manakini",
+    "length": "9.30 meters",
+    "weight": "3200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Klamelisaurus gobiensis",
+    "accepted_name": "Klamelisaurus gobiensis",
+    "length": "17.00 meters",
+    "weight": "19000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kotasaurus yamanpalliensis",
+    "accepted_name": "Kotasaurus yamanpalliensis",
+    "length": "7.50 meters",
+    "weight": "8200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Koutalisaurus kohlerorum",
+    "accepted_name": "Koutalisaurus kohlerorum",
+    "length": "6.50 meters",
+    "weight": "850.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kritosaurus horneri",
+    "accepted_name": "Kritosaurus horneri",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Kritosaurus navajovius",
+    "accepted_name": "Kritosaurus navajovius",
+    "length": "8.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Kundurosaurus nagornyi",
+    "accepted_name": "Kundurosaurus nagornyi",
+    "length": "4.00 - 5.00 meters",
+    "weight": "910.00 - 1400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Laiyangosaurus youngi",
+    "accepted_name": "Laiyangosaurus youngi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lamaceratops tereschenkoi",
+    "accepted_name": "Lamaceratops tereschenkoi",
+    "length": "2.00 meters",
+    "weight": "48.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lambeosaurus clavinitialis",
+    "accepted_name": "Lambeosaurus clavinitialis",
+    "length": "9.00 - 15.00 meters",
+    "weight": "2700.00 - 7700.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Lambeosaurus lambei",
+    "accepted_name": "Lambeosaurus lambei",
+    "length": "12.00 meters",
+    "weight": "5200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lambeosaurus magnicristatus",
+    "accepted_name": "Lambeosaurus magnicristatus",
+    "length": "10.00 meters",
+    "weight": "5800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lanzhousaurus magnidens",
+    "accepted_name": "Lanzhousaurus magnidens",
+    "length": "9.50 meters",
+    "weight": "5800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Laosaurus gracilis",
+    "accepted_name": "Laosaurus gracilis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lapampasaurus cholinoi",
+    "accepted_name": "Lapampasaurus cholinoi",
+    "length": "17.00 - 18.00 meters",
+    "weight": "22000.00 - 25000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Laplatasaurus araukanicus",
+    "accepted_name": "Laplatasaurus araukanicus",
+    "length": "18.00 meters",
+    "weight": "24000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lapparentosaurus madagascariensis",
+    "accepted_name": "Lapparentosaurus madagascariensis",
+    "length": "1.80 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Leaellynasaura amicagraphica",
+    "accepted_name": "Leaellynasaura amicagraphica",
+    "length": "2.00 meters",
+    "weight": "11.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Leptoceratops gracilis",
+    "accepted_name": "Leptoceratops gracilis",
+    "length": "2.40 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lesothosaurus diagnosticus",
+    "accepted_name": "Lesothosaurus diagnosticus",
+    "length": "1.00 meter",
+    "weight": "13.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lessemsaurus sauropoides",
+    "accepted_name": "Lessemsaurus sauropoides",
+    "length": "6.50 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lexovisaurus phillipsi",
+    "accepted_name": "Lexovisaurus phillipsi",
+    "length": "5.00 - 6.00 meters",
+    "weight": "900.00 - 1200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Leyesaurus marayensis",
+    "accepted_name": "Leyesaurus marayensis",
+    "length": "6.00 - 7.00 meters",
+    "weight": "1100.00 - 1600.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Liaoceratops yanzigouensis",
+    "accepted_name": "Liaoceratops yanzigouensis",
+    "length": "1.00 meter",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Liaoningosaurus paradoxus",
+    "accepted_name": "Liaoningosaurus paradoxus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Ligabuesaurus leanzai",
+    "accepted_name": "Ligabuesaurus leanzai",
+    "length": "24.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Limaysaurus tessonei",
+    "accepted_name": "Limaysaurus tessonei",
+    "length": "17.00 meters",
+    "weight": "10000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lirainosaurus astibiae",
+    "accepted_name": "Lirainosaurus astibiae",
+    "length": "18.00 meters",
+    "weight": "16000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Liubangosaurus hei",
+    "accepted_name": "Liubangosaurus hei",
+    "length": "6.00 meters",
+    "weight": "2000.00 - 2200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Loricosaurus scutatus",
+    "accepted_name": "Loricosaurus scutatus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Losillasaurus giganteus",
+    "accepted_name": "Losillasaurus giganteus",
+    "length": "27.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lourinhasaurus alenquerensis",
+    "accepted_name": "Lourinhasaurus alenquerensis",
+    "length": "17.00 meters",
+    "weight": "16.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lufengosaurus changduensis",
+    "accepted_name": "Lufengosaurus changduensis",
+    "length": "6.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lufengosaurus huenei",
+    "accepted_name": "Lufengosaurus huenei",
+    "length": "6.00 meters",
+    "weight": "2100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lufengosaurus magnus",
+    "accepted_name": "Lufengosaurus magnus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lurdusaurus arenatus",
+    "accepted_name": "Lurdusaurus arenatus",
+    "length": "8.70 meters",
+    "weight": "2600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lusotitan atalaiensis",
+    "accepted_name": "Lusotitan atalaiensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lycorhinus angustidens",
+    "accepted_name": "Lycorhinus angustidens",
+    "length": "2.00 meters",
+    "weight": "38.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lycorhinus parvidens",
+    "accepted_name": "Lycorhinus parvidens",
+    "length": "2.00 meters",
+    "weight": "30.00 - 40.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Magnirostris dodsoni",
+    "accepted_name": "Magnirostris dodsoni",
+    "length": "1.00 meter",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Magyarosaurus dacus",
+    "accepted_name": "Magyarosaurus dacus",
+    "length": "5.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Magyarosaurus hungaricus",
+    "accepted_name": "Magyarosaurus hungaricus",
+    "length": "5.00 - 6.00 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Magyarosaurus transsylvanicus",
+    "accepted_name": "Magyarosaurus transsylvanicus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Maiasaura peeblesorum",
+    "accepted_name": "Maiasaura peeblesorum",
+    "length": "9.00 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Malawisaurus dixeyi",
+    "accepted_name": "Malawisaurus dixeyi",
+    "length": "9.00 meters",
+    "weight": "5000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus anyuensis",
+    "accepted_name": "Mamenchisaurus anyuensis",
+    "length": "21.00 meters",
+    "weight": "16000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus constructus",
+    "accepted_name": "Mamenchisaurus constructus",
+    "length": "25.00 meters",
+    "weight": "21000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus gongjianensis",
+    "accepted_name": "Mamenchisaurus gongjianensis",
+    "length": "21.00 - 26.00 meters",
+    "weight": "22.00 - 22000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Mamenchisaurus hochuanensis",
+    "accepted_name": "Mamenchisaurus hochuanensis",
+    "length": "25.00 meters",
+    "weight": "20000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus jingyanensis",
+    "accepted_name": "Mamenchisaurus jingyanensis",
+    "length": "23.00 meters",
+    "weight": "18000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus sinocanadorum",
+    "accepted_name": "Mamenchisaurus sinocanadorum",
+    "length": "26.00 meters",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mamenchisaurus youngi",
+    "accepted_name": "Mamenchisaurus youngi",
+    "length": "25.00 meters",
+    "weight": "22.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mandschurosaurus amurensis",
+    "accepted_name": "Mandschurosaurus amurensis",
+    "length": "8.00 meters",
+    "weight": "1.20 - 1.40 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Manidens condorensis",
+    "accepted_name": "Manidens condorensis",
+    "length": "9.50 meters",
+    "weight": "5800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Mantellisaurus atherfieldensis",
+    "accepted_name": "Mantellisaurus atherfieldensis",
+    "length": "6.80 meters",
+    "weight": "2200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Massospondylus carinatus",
+    "accepted_name": "Massospondylus carinatus",
+    "length": "5.00 meters",
+    "weight": "160.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Massospondylus hislopi",
+    "accepted_name": "Massospondylus hislopi",
+    "length": "5.00 meters",
+    "weight": "150.00 - 160.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Massospondylus kaalae",
+    "accepted_name": "Massospondylus kaalae",
+    "length": "5.00 meters",
+    "weight": "150.00 - 160.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Maxakalisaurus topai",
+    "accepted_name": "Maxakalisaurus topai",
+    "length": "6.50 meters",
+    "weight": "4100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mbiresaurus raathi",
+    "accepted_name": "Mbiresaurus raathi",
+    "length": "20.00 - 21.00 meters",
+    "weight": "12000.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Melanorosaurus readi",
+    "accepted_name": "Melanorosaurus readi",
+    "length": "7.50 meters",
+    "weight": "1200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mendozasaurus neguyelap",
+    "accepted_name": "Mendozasaurus neguyelap",
+    "length": "25.00 meters",
+    "weight": "28000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Micropachycephalosaurus hongtuyanensis",
+    "accepted_name": "Micropachycephalosaurus hongtuyanensis",
+    "length": "0.50 meters",
+    "weight": "2.10 kg",
+    "source": "species"
+  },
+  {
+    "name": "Minmi paravertebrata",
+    "accepted_name": "Minmi paravertebrata",
+    "length": "3.00 meters",
+    "weight": "200.00 - 210.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Moabosaurus utahensis",
+    "accepted_name": "Moabosaurus utahensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Mojoceratops perifania",
+    "accepted_name": "Mojoceratops perifania",
+    "length": "0.50 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Mongolosaurus haplodon",
+    "accepted_name": "Mongolosaurus haplodon",
+    "length": "5.00 meters",
+    "weight": "600.00 - 660.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Monoclonius crassus",
+    "accepted_name": "Monoclonius crassus",
+    "length": "6.00 meters",
+    "weight": "1800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Monoclonius cutleri",
+    "accepted_name": "Monoclonius cutleri",
+    "length": "5.00 - 6.00 meters",
+    "weight": "900.00 - 1800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Monoclonius dawsoni",
+    "accepted_name": "Monoclonius dawsoni",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Monoclonius flexus",
+    "accepted_name": "Monoclonius flexus",
+    "length": "5.00 - 6.00 meters",
+    "weight": "900.00 - 1800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Monoclonius lowei",
+    "accepted_name": "Monoclonius lowei",
+    "length": "5.00 - 6.00 meters",
+    "weight": "900.00 - 1800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Monoclonius nasicornus",
+    "accepted_name": "Monoclonius nasicornus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Montanoceratops cerorhynchus",
+    "accepted_name": "Montanoceratops cerorhynchus",
+    "length": "2.00 meters",
+    "weight": "400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Morosaurus impar",
+    "accepted_name": "Morosaurus impar",
+    "length": "20.00 - 21.00 meters",
+    "weight": "12000.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Morosaurus marchei",
+    "accepted_name": "Morosaurus marchei",
+    "length": "20.00 - 21.00 meters",
+    "weight": "12000.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Morosaurus robustus",
+    "accepted_name": "Morosaurus robustus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Morrosaurus antarcticus",
+    "accepted_name": "Morrosaurus antarcticus",
+    "length": "20.00 - 21.00 meters",
+    "weight": "12000.00 - 14000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Mussaurus patagonicus",
+    "accepted_name": "Mussaurus patagonicus",
+    "length": "3.00 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Muttaburrasaurus langdoni",
+    "accepted_name": "Muttaburrasaurus langdoni",
+    "length": "7.30 meters",
+    "weight": "1600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mymoorapelta maysi",
+    "accepted_name": "Mymoorapelta maysi",
+    "length": "2.70 meters",
+    "weight": "220.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Naashoibitosaurus ostromi",
+    "accepted_name": "Naashoibitosaurus ostromi",
+    "length": "10.00 meters",
+    "weight": "5400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nanningosaurus dashiensis",
+    "accepted_name": "Nanningosaurus dashiensis",
+    "length": "4.00 - 6.50 meters",
+    "weight": "300.00 - 450.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Nanosaurus agilis",
+    "accepted_name": "Nanosaurus agilis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Nanyangosaurus zhugeii",
+    "accepted_name": "Nanyangosaurus zhugeii",
+    "length": "4.50 meters",
+    "weight": "630.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Napaisaurus guangxiensis",
+    "accepted_name": "Napaisaurus guangxiensis",
+    "length": "0.90 meters",
+    "weight": "1.90 - 2.30 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Nedoceratops hatcheri",
+    "accepted_name": "Nedoceratops hatcheri",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Nemegtosaurus mongoliensis",
+    "accepted_name": "Nemegtosaurus mongoliensis",
+    "length": "21.00 meters",
+    "weight": "12000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Neuquensaurus australis",
+    "accepted_name": "Neuquensaurus australis",
+    "length": "12.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Nigersaurus taqueti",
+    "accepted_name": "Nigersaurus taqueti",
+    "length": "15.00 meters",
+    "weight": "7700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Niobrarasaurus coleii",
+    "accepted_name": "Niobrarasaurus coleii",
+    "length": "5.50 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nipponosaurus sachalinensis",
+    "accepted_name": "Nipponosaurus sachalinensis",
+    "length": "8.00 meters",
+    "weight": "1200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nodocephalosaurus kirtlandensis",
+    "accepted_name": "Nodocephalosaurus kirtlandensis",
+    "length": "4.00 meters",
+    "weight": "900.00 - 950.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Nodosaurus textilis",
+    "accepted_name": "Nodosaurus textilis",
+    "length": "5.50 meters",
+    "weight": "1900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Notohypsilophodon comodorensis",
+    "accepted_name": "Notohypsilophodon comodorensis",
+    "length": "1.50 meters",
+    "weight": "35.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Oblitosaurus bunnueli",
+    "accepted_name": "Oblitosaurus bunnueli",
+    "length": "3.80 - 5.00 meters",
+    "weight": "300.00 - 500.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Ohmdenosaurus liasicus",
+    "accepted_name": "Ohmdenosaurus liasicus",
+    "length": "11.00 meters",
+    "weight": "8600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Olorotitan arharensis",
+    "accepted_name": "Olorotitan arharensis",
+    "length": "9.00 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Omeisaurus changshouensis",
+    "accepted_name": "Omeisaurus changshouensis",
+    "length": "14.00 - 16.00 meters",
+    "weight": "8200.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Omeisaurus fuxiensis",
+    "accepted_name": "Omeisaurus fuxiensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Omeisaurus jiaoi",
+    "accepted_name": "Omeisaurus jiaoi",
+    "length": "14.00 - 16.00 meters",
+    "weight": "8200.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Omeisaurus junghsiensis",
+    "accepted_name": "Omeisaurus junghsiensis",
+    "length": "16.00 meters",
+    "weight": "9500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Omeisaurus luoquanensis",
+    "accepted_name": "Omeisaurus luoquanensis",
+    "length": "14.00 - 16.00 meters",
+    "weight": "8200.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Omeisaurus maoianus",
+    "accepted_name": "Omeisaurus maoianus",
+    "length": "14.00 - 16.00 meters",
+    "weight": "8200.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Omeisaurus puxiani",
+    "accepted_name": "Omeisaurus puxiani",
+    "length": "14.00 - 16.00 meters",
+    "weight": "8200.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Omeisaurus tianfuensis",
+    "accepted_name": "Omeisaurus tianfuensis",
+    "length": "14.00 meters",
+    "weight": "9100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Opisthocoelicaudia skarzynskii",
+    "accepted_name": "Opisthocoelicaudia skarzynskii",
+    "length": "12.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Oplosaurus armatus",
+    "accepted_name": "Oplosaurus armatus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Ornatotholus browni",
+    "accepted_name": "Ornatotholus browni",
+    "length": "2.40 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ornithomerus gracilis",
+    "accepted_name": "Ornithomerus gracilis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Ornithopsis hulkei",
+    "accepted_name": "Ornithopsis hulkei",
+    "length": "16.00 meters",
+    "weight": "19000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Orodromeus makelai",
+    "accepted_name": "Orodromeus makelai",
+    "length": "2.50 meters",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Oryctodromeus cubicularis",
+    "accepted_name": "Oryctodromeus cubicularis",
+    "length": "1.10 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Oshanosaurus youngi",
+    "accepted_name": "Oshanosaurus youngi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Othnielia rex",
+    "accepted_name": "Othnielia rex",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Othnielosaurus consors",
+    "accepted_name": "Othnielosaurus consors",
+    "length": "1.80 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ouranosaurus nigeriensis",
+    "accepted_name": "Ouranosaurus nigeriensis",
+    "length": "7.00 meters",
+    "weight": "2500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pachycephalosaurus grangeri",
+    "accepted_name": "Pachycephalosaurus grangeri",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Pachycephalosaurus reinheimeri",
+    "accepted_name": "Pachycephalosaurus reinheimeri",
+    "length": "4.60 meters",
+    "weight": "250.00 - 300.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pachycephalosaurus wyomingensis",
+    "accepted_name": "Pachycephalosaurus wyomingensis",
+    "length": "2.30 meters",
+    "weight": "280.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pachyrhinosaurus canadensis",
+    "accepted_name": "Pachyrhinosaurus canadensis",
+    "length": "5.80 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pachyrhinosaurus lakustai",
+    "accepted_name": "Pachyrhinosaurus lakustai",
+    "length": "5.50 - 6.00 meters",
+    "weight": "1800.00 - 2200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pachyrhinosaurus perotorum",
+    "accepted_name": "Pachyrhinosaurus perotorum",
+    "length": "5.50 - 6.00 meters",
+    "weight": "1800.00 - 2200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pakisaurus balochistani",
+    "accepted_name": "Pakisaurus balochistani",
+    "length": "2.00 meters",
+    "weight": "50.00 - 55.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Palaeosaurus diagnosticus",
+    "accepted_name": "Palaeosaurus diagnosticus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Palaeoscincus magoder",
+    "accepted_name": "Palaeoscincus magoder",
+    "length": "4.60 - 7.00 meters",
+    "weight": "700.00 - 2200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Paluxysaurus jonesi",
+    "accepted_name": "Paluxysaurus jonesi",
+    "length": "30.00 meters",
+    "weight": "39000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Panoplosaurus mirus",
+    "accepted_name": "Panoplosaurus mirus",
+    "length": "7.00 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Panoplosaurus rugosidens",
+    "accepted_name": "Panoplosaurus rugosidens",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Pantydraco caducus",
+    "accepted_name": "Pantydraco caducus",
+    "length": "1.00 meter",
+    "weight": "15.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Paralititan stromeri",
+    "accepted_name": "Paralititan stromeri",
+    "length": "30.00 meters",
+    "weight": "74000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Paranthodon africanus",
+    "accepted_name": "Paranthodon africanus",
+    "length": "5.00 meters",
+    "weight": "800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Paranthodon owenii",
+    "accepted_name": "Paranthodon owenii",
+    "length": "5.00 meters",
+    "weight": "700.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Paranthodon owenii",
+    "accepted_name": "Paranthodon owenii",
+    "length": "5.00 meters",
+    "weight": "700.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pararhabdodon isonensis",
+    "accepted_name": "Pararhabdodon isonensis",
+    "length": "5.00 meters",
+    "weight": "650.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Parasaurolophus cyrtocristatus",
+    "accepted_name": "Parasaurolophus cyrtocristatus",
+    "length": "9.30 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Parasaurolophus tubicen",
+    "accepted_name": "Parasaurolophus tubicen",
+    "length": "9.30 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Parasaurolophus walkeri",
+    "accepted_name": "Parasaurolophus walkeri",
+    "length": "8.90 meters",
+    "weight": "4500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Parksosaurus warreni",
+    "accepted_name": "Parksosaurus warreni",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Patagosaurus fariasi",
+    "accepted_name": "Patagosaurus fariasi",
+    "length": "16.00 meters",
+    "weight": "17000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pawpawsaurus campbelli",
+    "accepted_name": "Pawpawsaurus campbelli",
+    "length": "6.00 meters",
+    "weight": "1800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pellegrinisaurus powelli",
+    "accepted_name": "Pellegrinisaurus powelli",
+    "length": "25.00 meters",
+    "weight": "33000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pelorosaurus conybeari",
+    "accepted_name": "Pelorosaurus conybeari",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Pelorosaurus praecursor",
+    "accepted_name": "Pelorosaurus praecursor",
+    "length": "25.00 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Penelopognathus weishampeli",
+    "accepted_name": "Penelopognathus weishampeli",
+    "length": "4.00 meters",
+    "weight": "1300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pentaceratops aquilonius",
+    "accepted_name": "Pentaceratops aquilonius",
+    "length": "6.00 - 7.50 meters",
+    "weight": "4500.00 - 6400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pentaceratops fenestratus",
+    "accepted_name": "Pentaceratops fenestratus",
+    "length": "6.00 - 7.50 meters",
+    "weight": "4500.00 - 6400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pentaceratops sternbergii",
+    "accepted_name": "Pentaceratops sternbergii",
+    "length": "6.80 meters",
+    "weight": "5400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Phuwiangosaurus sirindhornae",
+    "accepted_name": "Phuwiangosaurus sirindhornae",
+    "length": "18.00 meters",
+    "weight": "17000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pinacosaurus grangeri",
+    "accepted_name": "Pinacosaurus grangeri",
+    "length": "5.30 meters",
+    "weight": "1700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pinacosaurus mephistocephalus",
+    "accepted_name": "Pinacosaurus mephistocephalus",
+    "length": "3.30 meters",
+    "weight": "450.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pinacosaurus ninghsiensis",
+    "accepted_name": "Pinacosaurus ninghsiensis",
+    "length": "3.00 - 5.50 meters",
+    "weight": "400.00 - 1800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Pisanosaurus mertii",
+    "accepted_name": "Pisanosaurus mertii",
+    "length": "1.00 meter",
+    "weight": "3.00 - 3.20 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Planicoxa venenica",
+    "accepted_name": "Planicoxa venenica",
+    "length": "5.00 meters",
+    "weight": "430.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Plateosauravus cullingworthi",
+    "accepted_name": "Plateosauravus cullingworthi",
+    "length": "7.00 - 9.00 meters",
+    "weight": "1500.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Plateosaurus elizae",
+    "accepted_name": "Plateosaurus elizae",
+    "length": "7.00 - 9.00 meters",
+    "weight": "1500.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Plateosaurus engelhardti",
+    "accepted_name": "Plateosaurus engelhardti",
+    "length": "8.00 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Plateosaurus fraasianus",
+    "accepted_name": "Plateosaurus fraasianus",
+    "length": "7.00 - 9.00 meters",
+    "weight": "1500.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Plateosaurus gracilis",
+    "accepted_name": "Plateosaurus gracilis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Plateosaurus ingens",
+    "accepted_name": "Plateosaurus ingens",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Plateosaurus integer",
+    "accepted_name": "Plateosaurus integer",
+    "length": "7.00 - 9.00 meters",
+    "weight": "1500.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Plateosaurus longiceps",
+    "accepted_name": "Plateosaurus longiceps",
+    "length": "7.00 meters",
+    "weight": "1500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Plateosaurus trossingensis",
+    "accepted_name": "Plateosaurus trossingensis",
+    "length": "7.00 - 9.00 meters",
+    "weight": "1500.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Platyceratops tatarinovi",
+    "accepted_name": "Platyceratops tatarinovi",
+    "length": "1.00 meter",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pleurocoelus montanus",
+    "accepted_name": "Pleurocoelus montanus",
+    "length": "10.00 meters",
+    "weight": "7300.00 - 11000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Polacanthus becklesi",
+    "accepted_name": "Polacanthus becklesi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Polacanthus foxii",
+    "accepted_name": "Polacanthus foxii",
+    "length": "5.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Polacanthus rudgwickensis",
+    "accepted_name": "Polacanthus rudgwickensis",
+    "length": "6.50 meters",
+    "weight": "1000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Prenocephale prenes",
+    "accepted_name": "Prenocephale prenes",
+    "length": "1.80 meters",
+    "weight": "49.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Prenoceratops pieganensis",
+    "accepted_name": "Prenoceratops pieganensis",
+    "length": "1.80 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Probactrosaurus alashanicus",
+    "accepted_name": "Probactrosaurus alashanicus",
+    "length": "6.00 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Probactrosaurus gobiensis",
+    "accepted_name": "Probactrosaurus gobiensis",
+    "length": "6.00 meters",
+    "weight": "1.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Prosaurolophus blackfeetensis",
+    "accepted_name": "Prosaurolophus blackfeetensis",
+    "length": "8.00 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Prosaurolophus maximus",
+    "accepted_name": "Prosaurolophus maximus",
+    "length": "8.00 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Protoceratops andrewsi",
+    "accepted_name": "Protoceratops andrewsi",
+    "length": "1.80 meters",
+    "weight": "242.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Protoceratops hellenikorhinus",
+    "accepted_name": "Protoceratops hellenikorhinus",
+    "length": "2.00 meters",
+    "weight": "250.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Protohadros byrdi",
+    "accepted_name": "Protohadros byrdi",
+    "length": "8.00 meters",
+    "weight": "1800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus amitabha",
+    "accepted_name": "Psittacosaurus amitabha",
+    "length": "2.00 meters",
+    "weight": "24.00 - 32.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Psittacosaurus gobiensis",
+    "accepted_name": "Psittacosaurus gobiensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus guyangensis",
+    "accepted_name": "Psittacosaurus guyangensis",
+    "length": "2.00 meters",
+    "weight": "28.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus houi",
+    "accepted_name": "Psittacosaurus houi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus lujiatunensis",
+    "accepted_name": "Psittacosaurus lujiatunensis",
+    "length": "1.00 meter",
+    "weight": "28.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus major",
+    "accepted_name": "Psittacosaurus major",
+    "length": "1.00 meter",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus meileyingensis",
+    "accepted_name": "Psittacosaurus meileyingensis",
+    "length": "2.00 meters",
+    "weight": "29.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus mongoliensis",
+    "accepted_name": "Psittacosaurus mongoliensis",
+    "length": "2.00 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus neimongoliensis",
+    "accepted_name": "Psittacosaurus neimongoliensis",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus osborni",
+    "accepted_name": "Psittacosaurus osborni",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus protiguanodonensis",
+    "accepted_name": "Psittacosaurus protiguanodonensis",
+    "length": "2.00 meters",
+    "weight": "24.00 - 32.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Psittacosaurus sibiricus",
+    "accepted_name": "Psittacosaurus sibiricus",
+    "length": "1.00 meter",
+    "weight": "28.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus sinensis",
+    "accepted_name": "Psittacosaurus sinensis",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus tingi",
+    "accepted_name": "Psittacosaurus tingi",
+    "length": "2.00 meters",
+    "weight": "24.00 - 32.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Psittacosaurus xinjiangensis",
+    "accepted_name": "Psittacosaurus xinjiangensis",
+    "length": "2.00 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Psittacosaurus youngi",
+    "accepted_name": "Psittacosaurus youngi",
+    "length": "2.00 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Puertasaurus reuili",
+    "accepted_name": "Puertasaurus reuili",
+    "length": "32.00 meters",
+    "weight": "36000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Qantassaurus intrepidus",
+    "accepted_name": "Qantassaurus intrepidus",
+    "length": "1.80 meters",
+    "weight": "40.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Quaesitosaurus orientalis",
+    "accepted_name": "Quaesitosaurus orientalis",
+    "length": "23.00 meters",
+    "weight": "23000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rapetosaurus krausei",
+    "accepted_name": "Rapetosaurus krausei",
+    "length": "15.00 meters",
+    "weight": "9100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rayososaurus agrioensis",
+    "accepted_name": "Rayososaurus agrioensis",
+    "length": "6.50 meters",
+    "weight": "3200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rebbachisaurus garasbae",
+    "accepted_name": "Rebbachisaurus garasbae",
+    "length": "32.00 meters",
+    "weight": "27000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rhabdodon priscus",
+    "accepted_name": "Rhabdodon priscus",
+    "length": "4.00 meters",
+    "weight": "530.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rhabdodon septimanicus",
+    "accepted_name": "Rhabdodon septimanicus",
+    "length": "5.50 meters",
+    "weight": "800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rhabdodon suessi",
+    "accepted_name": "Rhabdodon suessi",
+    "length": "4.00 - 6.00 meters",
+    "weight": "500.00 - 900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Rhinorex condrupus",
+    "accepted_name": "Rhinorex condrupus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Rhoetosaurus brownei",
+    "accepted_name": "Rhoetosaurus brownei",
+    "length": "18.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rinconsaurus caudamirus",
+    "accepted_name": "Rinconsaurus caudamirus",
+    "length": "13.00 meters",
+    "weight": "10000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Riojasaurus incertus",
+    "accepted_name": "Riojasaurus incertus",
+    "length": "10.00 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rocasaurus muniozi",
+    "accepted_name": "Rocasaurus muniozi",
+    "length": "8.00 meters",
+    "weight": "7500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ruehleia bedheimensis",
+    "accepted_name": "Ruehleia bedheimensis",
+    "length": "8.00 meters",
+    "weight": "2.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ruyangosaurus giganteus",
+    "accepted_name": "Ruyangosaurus giganteus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sahaliyania elunchunorum",
+    "accepted_name": "Sahaliyania elunchunorum",
+    "length": "9.50 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saichania chulsanensis",
+    "accepted_name": "Saichania chulsanensis",
+    "length": "6.80 meters",
+    "weight": "2900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saltasaurus loricatus",
+    "accepted_name": "Saltasaurus loricatus",
+    "length": "12.00 meters",
+    "weight": "5900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sarcolestes leedsi",
+    "accepted_name": "Sarcolestes leedsi",
+    "length": "3.00 meters",
+    "weight": "260.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saturnalia tupiniquim",
+    "accepted_name": "Saturnalia tupiniquim",
+    "length": "2.00 meters",
+    "weight": "14.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saurolophus angustirostris",
+    "accepted_name": "Saurolophus angustirostris",
+    "length": "9.00 meters",
+    "weight": "2200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saurolophus osborni",
+    "accepted_name": "Saurolophus osborni",
+    "length": "9.00 meters",
+    "weight": "2900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sauropelta edwardsorum",
+    "accepted_name": "Sauropelta edwardsorum",
+    "length": "6.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sauroposeidon proteles",
+    "accepted_name": "Sauroposeidon proteles",
+    "length": "29.00 meters",
+    "weight": "51000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Scelidosaurus harrisonii",
+    "accepted_name": "Scelidosaurus harrisonii",
+    "length": "4.00 meters",
+    "weight": "280.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Scutellosaurus lawleri",
+    "accepted_name": "Scutellosaurus lawleri",
+    "length": "3.50 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Secernosaurus koerneri",
+    "accepted_name": "Secernosaurus koerneri",
+    "length": "3.30 meters",
+    "weight": "200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sellosaurus fraasi",
+    "accepted_name": "Sellosaurus fraasi",
+    "length": "5.00 meters",
+    "weight": "400.00 - 430.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Serendipaceratops arthurcclarkei",
+    "accepted_name": "Serendipaceratops arthurcclarkei",
+    "length": "2.00 meters",
+    "weight": "62.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shamosaurus scutatus",
+    "accepted_name": "Shamosaurus scutatus",
+    "length": "7.00 meters",
+    "weight": "360.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shantungosaurus giganteus",
+    "accepted_name": "Shantungosaurus giganteus",
+    "length": "15.00 meters",
+    "weight": "12000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shuangmiaosaurus gilmorei",
+    "accepted_name": "Shuangmiaosaurus gilmorei",
+    "length": "8.00 meters",
+    "weight": "1900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shunosaurus lii",
+    "accepted_name": "Shunosaurus lii",
+    "length": "10.00 meters",
+    "weight": "9500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Silvisaurus condrayi",
+    "accepted_name": "Silvisaurus condrayi",
+    "length": "4.00 meters",
+    "weight": "530.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sirindhorna khoratensis",
+    "accepted_name": "Sirindhorna khoratensis",
+    "length": "18.00 meters",
+    "weight": "17000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Smitanosaurus agilis",
+    "accepted_name": "Smitanosaurus agilis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sonidosaurus saihangaobiensis",
+    "accepted_name": "Sonidosaurus saihangaobiensis",
+    "length": "4.50 meters",
+    "weight": "7700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sphaerotholus buchholtzae",
+    "accepted_name": "Sphaerotholus buchholtzae",
+    "length": "2.80 meters",
+    "weight": "77.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sphaerotholus edmontonensis",
+    "accepted_name": "Sphaerotholus edmontonensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sphaerotholus goodwini",
+    "accepted_name": "Sphaerotholus goodwini",
+    "length": "2.80 meters",
+    "weight": "77.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sphaerotholus lyonsi",
+    "accepted_name": "Sphaerotholus lyonsi",
+    "length": "2.50 - 3.00 meters",
+    "weight": "60.00 - 95.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Sphaerotholus triregnum",
+    "accepted_name": "Sphaerotholus triregnum",
+    "length": "2.50 - 3.00 meters",
+    "weight": "60.00 - 95.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stegoceras novomexicanum",
+    "accepted_name": "Stegoceras novomexicanum",
+    "length": "2.00 - 2.40 meters",
+    "weight": "40.00 - 55.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stegoceras validum",
+    "accepted_name": "Stegoceras validum",
+    "length": "2.00 meters",
+    "weight": "43.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stegopelta landerensis",
+    "accepted_name": "Stegopelta landerensis",
+    "length": "5.50 meters",
+    "weight": "2600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stegosaurus armatus",
+    "accepted_name": "Stegosaurus armatus",
+    "length": "9.00 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stegosaurus duplex",
+    "accepted_name": "Stegosaurus duplex",
+    "length": "5.00 - 9.00 meters",
+    "weight": "2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stegosaurus stenops",
+    "accepted_name": "Stegosaurus stenops",
+    "length": "7.00 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stegosaurus sulcatus",
+    "accepted_name": "Stegosaurus sulcatus",
+    "length": "5.00 - 9.00 meters",
+    "weight": "2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stegosaurus ungulatus",
+    "accepted_name": "Stegosaurus ungulatus",
+    "length": "5.00 - 9.00 meters",
+    "weight": "2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stegouros elengassen",
+    "accepted_name": "Stegouros elengassen",
+    "length": "2.00 - 2.40 meters",
+    "weight": "40.00 - 55.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Stenopelix valdensis",
+    "accepted_name": "Stenopelix valdensis",
+    "length": "1.50 meters",
+    "weight": "11.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stormbergia dangershoeki",
+    "accepted_name": "Stormbergia dangershoeki",
+    "length": "1.00 meter",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Struthiosaurus austriacus",
+    "accepted_name": "Struthiosaurus austriacus",
+    "length": "2.00 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Struthiosaurus languedocensis",
+    "accepted_name": "Struthiosaurus languedocensis",
+    "length": "2.00 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Struthiosaurus transylvanicus",
+    "accepted_name": "Struthiosaurus transylvanicus",
+    "length": "2.00 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Stygimoloch spinifer",
+    "accepted_name": "Stygimoloch spinifer",
+    "length": "3.00 meters",
+    "weight": "210.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Styracosaurus albertensis",
+    "accepted_name": "Styracosaurus albertensis",
+    "length": "5.50 meters",
+    "weight": "2600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Styracosaurus makeli",
+    "accepted_name": "Styracosaurus makeli",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Styracosaurus parksi",
+    "accepted_name": "Styracosaurus parksi",
+    "length": "5.50 meters",
+    "weight": "2400.00 - 2800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Supersaurus vivianae",
+    "accepted_name": "Supersaurus vivianae",
+    "length": "38.00 meters",
+    "weight": "38000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Suuwassea emilieae",
+    "accepted_name": "Suuwassea emilieae",
+    "length": "14.00 meters",
+    "weight": "11000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Syrmosaurus viminocaudus",
+    "accepted_name": "Syrmosaurus viminocaudus",
+    "length": "3.50 meters",
+    "weight": "200.00 - 230.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Talarurus plicatospineus",
+    "accepted_name": "Talarurus plicatospineus",
+    "length": "4.50 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Talenkauen santacrucensis",
+    "accepted_name": "Talenkauen santacrucensis",
+    "length": "4.00 meters",
+    "weight": "240.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tangvayosaurus hoffeti",
+    "accepted_name": "Tangvayosaurus hoffeti",
+    "length": "15.00 meters",
+    "weight": "11000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tanius chingkankouensis",
+    "accepted_name": "Tanius chingkankouensis",
+    "length": "8.00 - 9.00 meters",
+    "weight": "2500.00 - 3200.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Tanius sinensis",
+    "accepted_name": "Tanius sinensis",
+    "length": "8.50 meters",
+    "weight": "2900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tapuiasaurus macedoi",
+    "accepted_name": "Tapuiasaurus macedoi",
+    "length": "9.00 meters",
+    "weight": "3600.00 - 3800.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Tarchia kielanae",
+    "accepted_name": "Tarchia kielanae",
+    "length": "8.50 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Tarchia teresae",
+    "accepted_name": "Tarchia teresae",
+    "length": "8.50 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Tarchia tumanovae",
+    "accepted_name": "Tarchia tumanovae",
+    "length": "8.50 meters",
+    "weight": "N/A",
+    "source": "genus"
+  },
+  {
+    "name": "Tazoudasaurus naimi",
+    "accepted_name": "Tazoudasaurus naimi",
+    "length": "9.00 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tehuelchesaurus benitezii",
+    "accepted_name": "Tehuelchesaurus benitezii",
+    "length": "12.00 meters",
+    "weight": "8400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Telmatosaurus transsylvanicus",
+    "accepted_name": "Telmatosaurus transsylvanicus",
+    "length": "7.00 meters",
+    "weight": "1100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tendaguria tanzaniensis",
+    "accepted_name": "Tendaguria tanzaniensis",
+    "length": "21.00 meters",
+    "weight": "17000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tenontosaurus dossi",
+    "accepted_name": "Tenontosaurus dossi",
+    "length": "7.50 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tenontosaurus tilletti",
+    "accepted_name": "Tenontosaurus tilletti",
+    "length": "7.50 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Texasetes pleurohalio",
+    "accepted_name": "Texasetes pleurohalio",
+    "length": "3.00 meters",
+    "weight": "730.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Thecodontosaurus antiquus",
+    "accepted_name": "Thecodontosaurus antiquus",
+    "length": "2.60 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Thecodontosaurus hermannianus",
+    "accepted_name": "Thecodontosaurus hermannianus",
+    "length": "2.00 - 5.00 meters",
+    "weight": "14.00 - 430.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Thecodontosaurus minimus",
+    "accepted_name": "Thecodontosaurus minimus",
+    "length": "2.00 - 5.00 meters",
+    "weight": "14.00 - 430.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Theiophytalia kerri",
+    "accepted_name": "Theiophytalia kerri",
+    "length": "7.00 meters",
+    "weight": "730.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Thescelosaurus assiniboiensis",
+    "accepted_name": "Thescelosaurus assiniboiensis",
+    "length": "3.50 - 3.70 meters",
+    "weight": "300.00 - 320.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Thescelosaurus edmontonensis",
+    "accepted_name": "Thescelosaurus edmontonensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Thescelosaurus garbanii",
+    "accepted_name": "Thescelosaurus garbanii",
+    "length": "3.50 - 3.70 meters",
+    "weight": "300.00 - 320.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Thescelosaurus neglectus",
+    "accepted_name": "Thescelosaurus neglectus",
+    "length": "3.60 meters",
+    "weight": "310.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Thyreosaurus atlasicus",
+    "accepted_name": "Thyreosaurus atlasicus",
+    "length": "12.00 meters",
+    "weight": "6.00 - 6.40 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Tianzhenosaurus youngi",
+    "accepted_name": "Tianzhenosaurus youngi",
+    "length": "4.00 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Titanosaurus blanfordi",
+    "accepted_name": "Titanosaurus blanfordi",
+    "length": "20.00 meters",
+    "weight": "13000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tonganosaurus hei",
+    "accepted_name": "Tonganosaurus hei",
+    "length": "8.00 - 20.00 meters",
+    "weight": "5400.00 - 18000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Tornieria africana",
+    "accepted_name": "Tornieria africana",
+    "length": "25.00 meters",
+    "weight": "21000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Torosaurus gladius",
+    "accepted_name": "Torosaurus gladius",
+    "length": "7.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Torosaurus latus",
+    "accepted_name": "Torosaurus latus",
+    "length": "7.80 meters",
+    "weight": "6800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Torosaurus utahensis",
+    "accepted_name": "Torosaurus utahensis",
+    "length": "7.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Triceratops albertensis",
+    "accepted_name": "Triceratops albertensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Triceratops brevicornus",
+    "accepted_name": "Triceratops brevicornus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops calicornis",
+    "accepted_name": "Triceratops calicornis",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops elatus",
+    "accepted_name": "Triceratops elatus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops eurycephalus",
+    "accepted_name": "Triceratops eurycephalus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops flabellatus",
+    "accepted_name": "Triceratops flabellatus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops horridus",
+    "accepted_name": "Triceratops horridus",
+    "length": "9.00 meters",
+    "weight": "7300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Triceratops obtusus",
+    "accepted_name": "Triceratops obtusus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Triceratops prorsus",
+    "accepted_name": "Triceratops prorsus",
+    "length": "9.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Triceratops serratus",
+    "accepted_name": "Triceratops serratus",
+    "length": "9.00 meters",
+    "weight": "7300.00 - 7400.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Trigonosaurus pricei",
+    "accepted_name": "Trigonosaurus pricei",
+    "length": "4.80 meters",
+    "weight": "6800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tsagantegia longicranialis",
+    "accepted_name": "Tsagantegia longicranialis",
+    "length": "6.50 meters",
+    "weight": "2600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tsintaosaurus spinorhinus",
+    "accepted_name": "Tsintaosaurus spinorhinus",
+    "length": "9.50 meters",
+    "weight": "3.70 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tuebingosaurus maierfritzorum",
+    "accepted_name": "Tuebingosaurus maierfritzorum",
+    "length": "7.00 meters",
+    "weight": "2700.00 - 2900.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Tuojiangosaurus multispinus",
+    "accepted_name": "Tuojiangosaurus multispinus",
+    "length": "7.00 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Turiasaurus riodevensis",
+    "accepted_name": "Turiasaurus riodevensis",
+    "length": "34.00 meters",
+    "weight": "40000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tylocephale gilmorei",
+    "accepted_name": "Tylocephale gilmorei",
+    "length": "2.00 meters",
+    "weight": "52.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Udanoceratops tschizhovi",
+    "accepted_name": "Udanoceratops tschizhovi",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Unaysaurus tolentinoi",
+    "accepted_name": "Unaysaurus tolentinoi",
+    "length": "1.30 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Vagaceratops irvinensis",
+    "accepted_name": "Vagaceratops irvinensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Valdosaurus canaliculatus",
+    "accepted_name": "Valdosaurus canaliculatus",
+    "length": "3.50 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Velafrons coahuilensis",
+    "accepted_name": "Velafrons coahuilensis",
+    "length": "9.50 meters",
+    "weight": "3400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Venenosaurus dicrocei",
+    "accepted_name": "Venenosaurus dicrocei",
+    "length": "8.00 meters",
+    "weight": "6400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Volkheimeria chubutensis",
+    "accepted_name": "Volkheimeria chubutensis",
+    "length": "10.00 meters",
+    "weight": "8600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Vulcanodon karibaensis",
+    "accepted_name": "Vulcanodon karibaensis",
+    "length": "6.50 meters",
+    "weight": "5500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Wannanosaurus yansiensis",
+    "accepted_name": "Wannanosaurus yansiensis",
+    "length": "0.60 meters",
+    "weight": "2.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Wuerhosaurus homheni",
+    "accepted_name": "Wuerhosaurus homheni",
+    "length": "8.00 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Wulagasaurus dongi",
+    "accepted_name": "Wulagasaurus dongi",
+    "length": "9.50 meters",
+    "weight": "4600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Xianshanosaurus shijiagouensis",
+    "accepted_name": "Xianshanosaurus shijiagouensis",
+    "length": "20.00 - 22.00 meters",
+    "weight": "24000.00 - 27000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Xiaosaurus dashanpensis",
+    "accepted_name": "Xiaosaurus dashanpensis",
+    "length": "3.70 - 4.00 meters",
+    "weight": "700.00 - 1000.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Xuanhuaceratops niei",
+    "accepted_name": "Xuanhuaceratops niei",
+    "length": "0.50 meters",
+    "weight": "30.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yamaceratops dorngobiensis",
+    "accepted_name": "Yamaceratops dorngobiensis",
+    "length": "0.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Yandusaurus hongheensis",
+    "accepted_name": "Yandusaurus hongheensis",
+    "length": "2.00 meters",
+    "weight": "55.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yimenosaurus youngi",
+    "accepted_name": "Yimenosaurus youngi",
+    "length": "8.50 meters",
+    "weight": "2700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yingshanosaurus jichuanensis",
+    "accepted_name": "Yingshanosaurus jichuanensis",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Yinlong downsi",
+    "accepted_name": "Yinlong downsi",
+    "length": "0.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Yuanmousaurus jiangyiensis",
+    "accepted_name": "Yuanmousaurus jiangyiensis",
+    "length": "8.50 meters",
+    "weight": "14000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yueosaurus tiantaiensis",
+    "accepted_name": "Yueosaurus tiantaiensis",
+    "length": "8.00 - 9.00 meters",
+    "weight": "2200.00 - 3100.00 kg",
+    "source": "genus"
+  },
+  {
+    "name": "Yunnanosaurus huangi",
+    "accepted_name": "Yunnanosaurus huangi",
+    "length": "7.00 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yunnanosaurus robustus",
+    "accepted_name": "Yunnanosaurus robustus",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Yunnanosaurus youngi",
+    "accepted_name": "Yunnanosaurus youngi",
+    "length": "13.00 meters",
+    "weight": "3300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Zalmoxes robustus",
+    "accepted_name": "Zalmoxes robustus",
+    "length": "2.00 meters",
+    "weight": "50.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Zalmoxes shqiperorum",
+    "accepted_name": "Zalmoxes shqiperorum",
+    "length": "9.10 meters",
+    "weight": "3800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Zapalasaurus bonapartei",
+    "accepted_name": "Zapalasaurus bonapartei",
+    "length": "N/A",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Zephyrosaurus schaffi",
+    "accepted_name": "Zephyrosaurus schaffi",
+    "length": "1.90 meters",
+    "weight": "35.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Zhuchengosaurus maximus",
+    "accepted_name": "Zhuchengosaurus maximus",
+    "length": "17.00 meters",
+    "weight": "3500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Zuniceratops christopheri",
+    "accepted_name": "Zuniceratops christopheri",
+    "length": "3.30 meters",
+    "weight": "240.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Euhelopus zdanskyi",
+    "length": "12.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Lophorhothon atopus",
+    "length": "14.00 meters",
+    "weight": "5700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kryptops palaios",
+    "length": "7.50 meters",
+    "weight": "1200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Majungasaurus crenatissimus",
+    "length": "8.00 meters",
+    "weight": "2100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rajasaurus narmadensis",
+    "length": "9.00 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Indosaurus matleyi",
+    "length": "4.50 meters",
+    "weight": "600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Genusaurus sisteronis",
+    "length": "3.00 meters",
+    "weight": "60.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Xenotarsosaurus bonapartei",
+    "length": "7.50 meters",
+    "weight": "862.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Indosuchus raptorius",
+    "length": "6.50 meters",
+    "weight": "750.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Carnotaurus sastrei",
+    "length": "7.30 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pycnonemosaurus nevesi",
+    "length": "6.00 meters",
+    "weight": "630.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Quilmesaurus curriei",
+    "length": "5.50 meters",
+    "weight": "680.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Abelisaurus comahuensis",
+    "length": "8.00 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ilokelesia aguadagrandensis",
+    "length": "7.00 meters",
+    "weight": "1700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ekrixinatosaurus novasi",
+    "length": "6.30 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aucasaurus garridoi",
+    "length": "4.30 meters",
+    "weight": "600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tarascosaurus salluvicus",
+    "length": "6.00 meters",
+    "weight": "1500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rugops primus",
+    "length": "7.50 meters",
+    "weight": "1200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Berberosaurus liassicus",
+    "length": "6.30 meters",
+    "weight": "450.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ceratosaurus nasicornis",
+    "length": "5.40 meters",
+    "weight": "550.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Genyodectes serus",
+    "length": "7.00 meters",
+    "weight": "2200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Deltadromeus agilis",
+    "length": "8.30 meters",
+    "weight": "2100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ligabueino andesi",
+    "length": "0.70 meters",
+    "weight": "0.55 kg",
+    "source": "species"
+  },
+  {
+    "name": "Velocisaurus unicus",
+    "length": "1.00 meter",
+    "weight": "10.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Masiakasaurus knopfleri",
+    "length": "1.80 meters",
+    "weight": "38.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Noasaurus leali",
+    "length": "2.40 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Laevisuchus indicus",
+    "length": "2.00 meters",
+    "weight": "35.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Elaphrosaurus bambergi",
+    "length": "4.50 meters",
+    "weight": "220.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chindesaurus bryansmalli",
+    "length": "2.20 meters",
+    "weight": "34.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dracovenator regenti",
+    "length": "4.50 meters",
+    "weight": "330.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dilophosaurus sinensis",
+    "length": "5.50 meters",
+    "weight": "380.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dilophosaurus wetherilli",
+    "length": "6.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Zupaysaurus rougieri",
+    "length": "5.10 meters",
+    "weight": "320.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Xinjiangovenator parvus",
+    "length": "3.50 meters",
+    "weight": "90.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Juravenator starki",
+    "length": "0.20 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Megaraptor namunhuaiquii",
+    "length": "9.00 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pelecanimimus polyodon",
+    "length": "2.30 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aviatyrannis jurassica",
+    "length": "0.85 meters",
+    "weight": "10.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Deinocheirus mirificus",
+    "length": "15.00 meters",
+    "weight": "3000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Garudimimus brevipes",
+    "length": "4.00 meters",
+    "weight": "120.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Harpymimus okladnikovi",
+    "length": "2.50 meters",
+    "weight": "137.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeornithomimus asiaticus",
+    "length": "3.50 meters",
+    "weight": "65.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeornithomimus bissektensis",
+    "length": "3.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Gallimimus bullatus",
+    "length": "5.50 meters",
+    "weight": "190.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Anserimimus planinychus",
+    "length": "3.50 meters",
+    "weight": "350.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dromiceiomimus brevitertius",
+    "length": "3.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Struthiomimus altus",
+    "length": "4.00 meters",
+    "weight": "310.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ornithomimus edmontonicus",
+    "length": "3.50 meters",
+    "weight": "70.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ornithomimus velox",
+    "length": "4.00 meters",
+    "weight": "85.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinornithomimus dongi",
+    "length": "2.20 meters",
+    "weight": "48.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shenzhousaurus orientalis",
+    "length": "3.00 meters",
+    "weight": "210.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nqwebasaurus thwazi",
+    "length": "1.10 meters",
+    "weight": "6.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Falcarius utahensis",
+    "length": "2.00 meters",
+    "weight": "150.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nanshiungosaurus bohlini",
+    "length": "6.50 meters",
+    "weight": "320.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nanshiungosaurus brevispinus",
+    "length": "4.50 meters",
+    "weight": "380.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Suzhousaurus megatherioides",
+    "length": "5.30 meters",
+    "weight": "3000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eshanosaurus deguchiianus",
+    "length": "2.00 meters",
+    "weight": "85.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Enigmosaurus mongoliensis",
+    "length": "7.00 meters",
+    "weight": "1000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Segnosaurus galbinensis",
+    "length": "6.00 meters",
+    "weight": "2800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Neimongosaurus yangi",
+    "length": "2.50 meters",
+    "weight": "130.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nothronychus mckinleyi",
+    "length": "5.30 meters",
+    "weight": "1200.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Therizinosaurus cheloniformis",
+    "length": "12.00 meters",
+    "weight": "6.10 kg",
+    "source": "species"
+  },
+  {
+    "name": "Alxasaurus elesitaiensis",
+    "length": "3.80 meters",
+    "weight": "380.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Beipiaosaurus inexpectus",
+    "length": "2.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Erlikosaurus andrewsi",
+    "length": "5.50 meters",
+    "weight": "300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tanycolagreus topwilsoni",
+    "length": "2.50 meters",
+    "weight": "430.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tugulusaurus faciles",
+    "length": "3.00 meters",
+    "weight": "82.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shuvuuia deserti",
+    "length": "0.60 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Mononykus olecranus",
+    "length": "1.00 meter",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Alvarezsaurus calvoi",
+    "length": "2.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sinosauropteryx prima",
+    "length": "1.10 meters",
+    "weight": "18.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lourinhanosaurus antunesi",
+    "length": "4.50 meters",
+    "weight": "650.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Coelurus fragilis",
+    "length": "1.90 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Appalachiosaurus montgomeriensis",
+    "length": "6.50 meters",
+    "weight": "800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eotyrannus lengi",
+    "length": "5.50 meters",
+    "weight": "340.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Labocania anomala",
+    "length": "6.00 meters",
+    "weight": "3800.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tarbosaurus bataar",
+    "length": "12.00 meters",
+    "weight": "6.20 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gorgosaurus libratus",
+    "length": "8.50 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Alioramus remotus",
+    "length": "6.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Tyrannosaurus rex",
+    "length": "12.00 meters",
+    "weight": "6100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Daspletosaurus torosus",
+    "length": "8.80 meters",
+    "weight": "2500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Proceratosaurus bradleyi",
+    "length": "3.00 meters",
+    "weight": "110.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Guanlong wucaii",
+    "length": "1.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Santanaraptor placidus",
+    "length": "1.30 meters",
+    "weight": "410.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dryptosaurus aquilunguis",
+    "length": "6.40 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Stokesosaurus clevelandi",
+    "length": "2.50 meters",
+    "weight": "110.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dilong paradoxus",
+    "length": "1.60 meters",
+    "weight": "33.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bagaraatan ostromi",
+    "length": "3.20 meters",
+    "weight": "90.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Alectrosaurus olseni",
+    "length": "5.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Aristosuchus pusillus",
+    "length": "2.00 meters",
+    "weight": "26.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Compsognathus longipes",
+    "length": "0.90 meters",
+    "weight": "2.40 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinocalliopteryx gigas",
+    "length": "1.20 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Huaxiagnathus orientalis",
+    "length": "1.30 meters",
+    "weight": "6.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Ornitholestes hermanni",
+    "length": "2.00 meters",
+    "weight": "17.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Aniksosaurus darwini",
+    "length": "1.00 meter",
+    "weight": "52.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Scipionyx samniticus",
+    "length": "2.00 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mirischia asymmetrica",
+    "length": "1.30 meters",
+    "weight": "3.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tochisaurus nemegtensis",
+    "length": "2.60 meters",
+    "weight": "50.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinusonasus magnodens",
+    "length": "1.00 meter",
+    "weight": "10.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeornithoides deinosauriscus",
+    "length": "0.65 meters",
+    "weight": "0.90 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mei long",
+    "length": "0.76 meters",
+    "weight": "5.90 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinovenator changii",
+    "length": "1.00 meter",
+    "weight": "4.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Troodon formosus",
+    "length": "2.00 meters",
+    "weight": "50.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Byronosaurus jaffei",
+    "length": "1.40 meters",
+    "weight": "6.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Borogovia gracilicrus",
+    "length": "1.80 meters",
+    "weight": "62.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinornithoides youngi",
+    "length": "1.00 meter",
+    "weight": "4.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saurornithoides mongoliensis",
+    "length": "2.00 meters",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Urbacodon itemirensis",
+    "length": "1.30 meters",
+    "weight": "12.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Pyroraptor olympius",
+    "length": "2.10 meters",
+    "weight": "33.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Graciliraptor lujiatunensis",
+    "length": "1.40 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shanag ashile",
+    "length": "1.00 meter",
+    "weight": "32.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Microraptor gui",
+    "length": "0.40 meters",
+    "weight": "0.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Microraptor zhaoianus",
+    "length": "0.50 meters",
+    "weight": "2.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinornithosaurus millenii",
+    "length": "2.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Bambiraptor feinbergi",
+    "length": "1.10 meters",
+    "weight": "11.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dromaeosauroides bornholmensis",
+    "length": "2.20 meters",
+    "weight": "68.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Buitreraptor gonzalezorum",
+    "length": "1.20 meters",
+    "weight": "12.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Unenlagia comahuensis",
+    "length": "2.00 meters",
+    "weight": "41.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Neuquenraptor argentinus",
+    "length": "1.30 meters",
+    "weight": "23.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Mahakala omnogovae",
+    "length": "0.68 meters",
+    "weight": "0.70 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hulsanpes perlei",
+    "length": "0.40 meters",
+    "weight": "0.53 kg",
+    "source": "species"
+  },
+  {
+    "name": "Variraptor mechinorum",
+    "length": "2.70 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Deinonychus antirrhopus",
+    "length": "3.20 meters",
+    "weight": "90.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Itemirus medullaris",
+    "length": "1.50 meters",
+    "weight": "16.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dromaeosaurus albertensis",
+    "length": "1.90 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tsaagan mangas",
+    "length": "1.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Velociraptor mongoliensis",
+    "length": "1.80 meters",
+    "weight": "17.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saurornitholestes langstoni",
+    "length": "1.80 meters",
+    "weight": "17.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Atrociraptor marshalli",
+    "length": "1.40 meters",
+    "weight": "11.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Protarchaeopteryx robusta",
+    "length": "2.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Caudipteryx dongi",
+    "length": "0.90 meters",
+    "weight": "13.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Caudipteryx zoui",
+    "length": "0.90 meters",
+    "weight": "13.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Incisivosaurus gauthieri",
+    "length": "1.00 meter",
+    "weight": "6.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Khaan mckennai",
+    "length": "2.00 meters",
+    "weight": "43.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Nemegtomaia barsboldi",
+    "length": "2.80 meters",
+    "weight": "40.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shixinggia oblita",
+    "length": "1.80 meters",
+    "weight": "350.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Conchoraptor gracilis",
+    "length": "1.40 meters",
+    "weight": "6.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Heyuannia huangi",
+    "length": "2.00 meters",
+    "weight": "65.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Oviraptor philoceratops",
+    "length": "2.50 meters",
+    "weight": "38.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Citipati osmolskae",
+    "length": "3.10 meters",
+    "weight": "55.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rinchenia mongoliensis",
+    "length": "2.50 meters",
+    "weight": "82.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Avimimus portentosus",
+    "length": "1.10 meters",
+    "weight": "14.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chirostenotes pergracilis",
+    "length": "2.30 meters",
+    "weight": "27.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Caenagnathasia martinsoni",
+    "length": "2.00 meters",
+    "weight": "25.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Hagryphus giganteus",
+    "length": "3.10 meters",
+    "weight": "36.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Elmisaurus rarus",
+    "length": "3.60 meters",
+    "weight": "55.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Microvenator celer",
+    "length": "1.20 meters",
+    "weight": "6.40 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gigantoraptor erlianensis",
+    "length": "4.00 meters",
+    "weight": "700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Archaeopteryx lithographica",
+    "length": "0.50 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Yixianosaurus longimanus",
+    "length": "0.43 meters",
+    "weight": "0.53 kg",
+    "source": "species"
+  },
+  {
+    "name": "Cryolophosaurus ellioti",
+    "length": "7.00 meters",
+    "weight": "2900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Chilantaisaurus tashuikouensis",
+    "length": "10.00 meters",
+    "weight": "3900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Neovenator salerii",
+    "length": "7.80 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Fukuiraptor kitadaniensis",
+    "length": "5.10 meters",
+    "weight": "500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Rapator ornitholestoides",
+    "length": "10.00 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Yangchuanosaurus shangyouensis",
+    "length": "9.00 meters",
+    "weight": "1000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Erectopus sauvagei",
+    "length": "4.50 meters",
+    "weight": "500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sinraptor hepingensis",
+    "length": "7.60 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Sinraptor dongi",
+    "length": "7.20 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Siamotyrannus isanensis",
+    "length": "6.50 meters",
+    "weight": "2.60 kg",
+    "source": "species"
+  },
+  {
+    "name": "Metriacanthosaurus parkeri",
+    "length": "8.00 meters",
+    "weight": "907.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Saurophaganax maximus",
+    "length": "12.00 meters",
+    "weight": "5700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Unquillosaurus ceibalii",
+    "length": "3.00 meters",
+    "weight": "41.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kelmayisaurus petrolicus",
+    "length": "7.00 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Giganotosaurus carolinii",
+    "length": "13.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Acrocanthosaurus atokensis",
+    "length": "12.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Mapusaurus roseae",
+    "length": "6.30 meters",
+    "weight": "2300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Tyrannotitan chubutensis",
+    "length": "12.00 meters",
+    "weight": "3500.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eocarcharia dinops",
+    "length": "7.00 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Carcharodontosaurus saharicus",
+    "length": "12.00 meters",
+    "weight": "6600.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Carcharodontosaurus iguidensis",
+    "length": "10.00 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Allosaurus europaeus",
+    "length": "8.00 meters",
+    "weight": "1400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Allosaurus fragilis",
+    "length": "12.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Monolophosaurus jiangi",
+    "length": "5.00 meters",
+    "weight": "430.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Torvosaurus tanneri",
+    "length": "9.50 meters",
+    "weight": "1900.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Megalosaurus bucklandii",
+    "length": "9.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Megalosaurus tibetensis",
+    "length": "9.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Afrovenator abakensis",
+    "length": "9.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Piveteausaurus divesensis",
+    "length": "7.50 meters",
+    "weight": "700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Poekilopleuron bucklandii",
+    "length": "9.00 meters",
+    "weight": "950.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Dubreuillosaurus valesdunensis",
+    "length": "7.50 meters",
+    "weight": "2100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Eustreptospondylus oxoniensis",
+    "length": "6.50 meters",
+    "weight": "300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Condorraptor currumili",
+    "length": "4.80 meters",
+    "weight": "480.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Xuanhanosaurus qilixiaensis",
+    "length": "6.00 meters",
+    "weight": "330.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Piatnitzkysaurus floresi",
+    "length": "4.40 meters",
+    "weight": "430.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Marshosaurus bicentesimus",
+    "length": "5.00 meters",
+    "weight": "280.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Streptospondylus altdorfensis",
+    "length": "7.00 meters",
+    "weight": "310.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Irritator challengeri",
+    "length": "8.00 meters",
+    "weight": "930.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Angaturama limai",
+    "length": "7.00 meters",
+    "weight": "2400.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Spinosaurus aegyptiacus",
+    "length": "16.00 meters",
+    "weight": "11000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Suchomimus tenerensis",
+    "length": "11.00 meters",
+    "weight": "3700.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Baryonyx walkeri",
+    "length": "11.00 meters",
+    "weight": "4000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gasosaurus constructus",
+    "length": "3.80 meters",
+    "weight": "190.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Kaijiangosaurus lini",
+    "length": "9.30 meters",
+    "weight": "1300.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Bahariasaurus ingens",
+    "length": "11.00 meters",
+    "weight": "5100.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Shanyangosaurus niupanggouensis",
+    "length": "2.50 meters",
+    "weight": "62.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Becklespinax altispinax",
+    "length": "9.00 meters",
+    "weight": "2000.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Syntarsus kayentakatae",
+    "length": "3.00 meters",
+    "weight": "16.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Lophostropheus airelensis",
+    "length": "5.50 meters",
+    "weight": "550.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Sarcosaurus woodi",
+    "length": "3.50 meters",
+    "weight": "220.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Gojirasaurus quayi",
+    "length": "6.30 meters",
+    "weight": "450.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Podokesaurus holyokensis",
+    "length": "0.90 meters",
+    "weight": "4.30 kg",
+    "source": "species"
+  },
+  {
+    "name": "Coelophysis bauri",
+    "length": "2.90 meters",
+    "weight": "45.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Segisaurus halli",
+    "length": "1.00 meter",
+    "weight": "7.50 kg",
+    "source": "species"
+  },
+  {
+    "name": "Camposaurus arizonensis",
+    "length": "3.10 meters",
+    "weight": "50.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Procompsognathus triassicus",
+    "length": "1.20 meters",
+    "weight": "1.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Liliensternus liliensterni",
+    "length": "5.00 meters",
+    "weight": "N/A",
+    "source": "species"
+  },
+  {
+    "name": "Staurikosaurus pricei",
+    "length": "2.00 meters",
+    "weight": "31.00 kg",
+    "source": "species"
+  },
+  {
+    "name": "Herrerasaurus ischigualastensis",
+    "length": "2.80 meters",
+    "weight": "220.00 kg",
+    "source": "species"
+  }
+]

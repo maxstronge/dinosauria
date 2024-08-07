@@ -1,0 +1,43 @@
+// schema.prisma
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Taxon {
+  id        String   @id
+  name      String
+  rank      Int
+  parentId  String?
+  parent    Taxon?   @relation("TaxonHierarchy", fields: [parentId], references: [id])
+  children  Taxon[]  @relation("TaxonHierarchy")
+  species   Species[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Species {
+  id                String   @id
+  name              String
+  taxonId           String
+  taxon             Taxon    @relation(fields: [taxonId], references: [id])
+  lineage           String[] // New field to store the lineage up to Dinosauria
+  description       String?
+  timeRange         String?  // e.g., "Late Cretaceous"
+  firstAppearance   Float?   // Million years ago
+  lastAppearance    Float?   // Million years ago
+  diet              String?  // e.g., "Carnivore", "Herbivore"
+  length            Float?   // in meters
+  weight            Float?   // in kilograms
+  fossilLocations   String[] // Array of locations where fossils were found
+  nameMeaning       String?  // Meaning of the species name
+  discoveryYear     Int?
+  discoveredBy      String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
