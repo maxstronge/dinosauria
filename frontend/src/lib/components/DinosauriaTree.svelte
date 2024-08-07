@@ -6,6 +6,7 @@
     import { buildTaxonomyTree } from '../services/treeBuilder';
     import { createFisheye, type FisheyeFunction, type FisheyePoint } from  '../services/fisheye';
     import { drag } from 'd3-drag';
+    import { browser } from '$app/environment';
 
     // State variables
     let data: TreeNode;
@@ -13,6 +14,7 @@
     let error = "";
     let svg: SVGSVGElement;  
     let simulation: d3.Simulation<d3.HierarchyNode<TreeNode>, undefined> | null = null;
+    let fontLoaded = false;
     const BASE_NODE_RADIUS = 10;
     const LABEL_OFFSET_X = 15;
     const LABEL_OFFSET_Y = 5;
@@ -23,7 +25,7 @@
     const chargeStrength = -800;
     const centerStrength = 0.9;
     const xStrength = 0.2;
-    const yStrength = 0.3;
+    const yStrength = 0.4;
 
     let fisheye: FisheyeFunction;
     let zoomTransform: d3.ZoomTransform = d3.zoomIdentity;
@@ -33,7 +35,7 @@
     // List of species to fetch and display
     const speciesTestList = [
         'Tyrannosaurus rex', 'Spinosaurus aegyptiacus', 'Triceratops horridus',
-        'Parasaurolophus walkeri', 'Stegosaurus stenops', 'Velociraptor mongoliensis', 'Brachiosaurus altithorax', 'Carcharodontosaurus saharicus', 'Argentinosaurus huinculensis', 'Giganotosaurus carolinii', 'Pachycephalosaurus wyomingensis', 'Deinonychus antirrhopus', 'Ankylosaurus magniventris'
+        'Parasaurolophus walkeri', 'Stegosaurus stenops', 'Velociraptor mongoliensis', 'Brachiosaurus altithorax', 'Carcharodontosaurus saharicus', 'Argentinosaurus huinculensis', 'Giganotosaurus carolinii', 'Pachycephalosaurus wyomingensis', 'Deinonychus antirrhopus', 'Ankylosaurus magniventris', 'Diplodocus carnegii', 'Allosaurus fragilis', 'Iguanodon bernissartensis', 'Ceratosaurus nasicornis', 'Carnotaurus sastrei', 'Therizinosaurus cheloniformis', 'Dilophosaurus wetherilli', 'Diplodicus longii', 'Styracosaurus albertensis', 'Corythosaurus casuarius', 'Compsognathus longipes', 'Gallimimus bullatus'
     ];
 
     // Fetch the dinosaur taxonomy data from the API
@@ -80,7 +82,7 @@
 
         // Add zoom behavior
         const zoom = d3.zoom<SVGSVGElement, unknown>()
-            .scaleExtent([0.1, 10])
+            .scaleExtent([0.5, 5])
             .on("zoom", (event) => {
                 zoomTransform = event.transform;
                 g.attr("transform", zoomTransform.toString());
@@ -93,7 +95,7 @@
         // Setup fisheye distortion
         fisheye = createFisheye() as FisheyeFunction;
             fisheye.radius(75)
-            fisheye.distortion(1.5);
+            fisheye.distortion(0.8);
 
         // Add links (edges between nodes)
         const link = g.append("g")
@@ -116,7 +118,6 @@
 
         // Add text labels for nodes
         const label = g.append("g")
-            .attr("font-family", "sans-serif")
             .selectAll("text")
             .data(nodes)
             .join("text")
@@ -141,6 +142,7 @@
             const invertedMouse = zoomTransform.invert(mouse);
             fisheye.focus(invertedMouse);
             fisheye.radius(75 / zoomTransform.k);
+            fisheye.distortion(0.8 / zoomTransform.k);
 
             if (animationFrameID) { 
                 cancelAnimationFrame(animationFrameID);
@@ -175,7 +177,7 @@
                 .attr("font-size", (d: any) => {
                     const baseFontSize = d.data.name === 'Dinosauria' ? 16 : 10;
                     const scaleFactor = d.fisheye?.z ?? 1;
-                    return `${baseFontSize * scaleFactor / zoomTransform.k}px`;
+                    return `${baseFontSize * scaleFactor}px`;
                 });
         }
 
@@ -240,24 +242,50 @@
     }
 
     // Initialize the visualization when the component mounts
+
     onMount(async () => {
-        try {
-            await fetchData(speciesTestList);
-            if (!error && data) {
-                simulation = createVisualization() || null;
-            } else {
-                console.error("Error or no data after fetching:", error);
+        if (browser) {
+        const WebFont = await import('webfontloader');
+        WebFont.load({
+            google: {
+            families: ['Raleway:400,700']
+            },
+            active: () => {
+            fontLoaded = true;
+            },
+            inactive: () => {
+            console.warn('Failed to load Raleway font');
+            fontLoaded = true;
             }
+        });
+        } else {
+        fontLoaded = true;
+        }
+
+        try {
+        await fetchData(speciesTestList);
+        if (!error && data) {
+            simulation = createVisualization() || null;
+        } else {
+            console.error("Error or no data after fetching:", error);
+        }
         } catch (e) {
-            console.error("Error in onMount:", e);
+        console.error("Error in onMount:", e);
         }
     });
+
 </script>
 
-{#if loading}
+{#if loading || !fontLoaded}
     <p>Loading...</p>
 {:else if error}
     <p style="color: red;">{error}</p>
 {:else}
     <svg bind:this={svg}></svg>
 {/if}
+
+<style>
+    :global(text) {
+        font-family: 'Raleway', sans-serif;
+    }
+</style>
