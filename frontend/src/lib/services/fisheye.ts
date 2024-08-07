@@ -14,7 +14,7 @@ export interface FisheyePoint {
   }
   
   export function createFisheye(): FisheyeFunction {
-    let radius = 200;
+    let radius = 300;
     let distortion = 2;
     let k0: number;
     let k1: number;
