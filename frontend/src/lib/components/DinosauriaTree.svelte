@@ -4,7 +4,7 @@
     import { fetchDinosaurAndTaxaData } from '../services/api';
     import type { TreeNode } from '../types';
     import { buildTaxonomyTree } from '../services/treeBuilder';
-    import { createFisheye, type FisheyeFunction, type FisheyePoint } from  '../services/fisheye';
+    import { createFisheye, type FisheyeFunction, type FisheyePoint } from '../services/fisheye';
     import { drag } from 'd3-drag';
     import { browser } from '$app/environment';
 
@@ -88,14 +88,13 @@
                 zoomTransform = event.transform;
                 g.attr("transform", zoomTransform.toString());
                 updateFisheye(d3.pointer(event, svgElement.node()));
-
             });
 
         svgElement.call(zoom as any);        
 
         // Setup fisheye distortion
         fisheye = createFisheye() as FisheyeFunction;
-            fisheye.radius(75)
+        fisheye.radius(75)
             fisheye.distortion(0.8);
 
         // Add links (edges between nodes)
@@ -111,11 +110,12 @@
             .attr("fill", "#fff")
             .attr("stroke", "#000")
             .attr("stroke-width", 1.5)
+            .attr("stroke-opacity", 0.5)
             .selectAll("circle")
             .data(nodes)
             .join("circle")
             .attr("fill", (d: any) => d.children ? "#555" : "#999") // Different color for leaf nodes
-            .attr("r", BASE_NODE_RADIUS)
+            .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*2 : BASE_NODE_RADIUS)
             .on("mouseover", handleMouseOver)
             .on("mouseout", handleMouseOut);
 
@@ -137,51 +137,78 @@
             .force('center', d3.forceCenter(width / 2, height / 2).strength(centerStrength))
             .force("x", d3.forceX().strength(xStrength))
             .force("y", d3.forceY().strength(yStrength))
-            .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS ).strength(1.2).iterations(2))
+            .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS).strength(1.2).iterations(2))
+            .alphaDecay(0.06)
+            .alphaMin(0.001)
+            
+            
+        simulation.on("tick",updatePositions)
 
-
-        // Update fisheye based on current zoom and mouse position
-        function updateFisheye(mouse: [number, number]) {
-            const invertedMouse = zoomTransform.invert(mouse);
-            fisheye.focus(invertedMouse);
-            fisheye.radius(75 / zoomTransform.k);
-            fisheye.distortion(0.8 / zoomTransform.k);
-
-            if (animationFrameID) { 
-                cancelAnimationFrame(animationFrameID);
-            }
-            animationFrameID = requestAnimationFrame(applyFisheye);
-            }
 
         // Update positions on each tick of the simulation
+        const prevNodePositions = new Map();
+        const prevLinkPositions = new Map();
+
         function updatePositions() {
-            link
-                .attr("x1", (d: any) => d.source.fisheye?.x ?? d.source.x)
-                .attr("y1", (d: any) => d.source.fisheye?.y ?? d.source.y)
-                .attr("x2", (d: any) => d.target.fisheye?.x ?? d.target.x)
-                .attr("y2", (d: any) => d.target.fisheye?.y ?? d.target.y);
-
-            node
-                .attr("cx", (d: any) => d.fisheye?.x ?? d.x)
-                .attr("cy", (d: any) => d.fisheye?.y ?? d.y)
-                .attr("r", (d: any) => BASE_NODE_RADIUS * (d.fisheye?.z ?? 1) / zoomTransform.k);
-
-            label
-                .attr("x", (d: any) => {
-                    const x = d.fisheye?.x ?? d.x;
-                    return x + (x > rootX ? LABEL_OFFSET_X : -LABEL_OFFSET_X);
-                })
-                .attr("y", (d: any) => {
-                    const y = d.fisheye?.y ?? d.y;
-                    return y + (y > rootY ? LABEL_OFFSET_Y : -LABEL_OFFSET_Y);
-                })
-                .attr("text-anchor", (d: any) => ((d.fisheye?.x ?? d.x) > rootX ? "start" : "end"))
-                .attr("dominant-baseline", (d: any) => ((d.fisheye?.y ?? d.y) > rootY ? "hanging" : "text-top"))
-                .attr("font-size", (d: any) => {
-                    const baseFontSize = d.data.name === 'Dinosauria' ? 16 : 10;
-                    const scaleFactor = d.fisheye?.z ?? 1;
-                    return `${baseFontSize * scaleFactor}px`;
+            requestAnimationFrame(() => {
+                // Batch link updates
+                link.each(function(d: any) {
+                    const key = `${d.source.id}-${d.target.id}`;
+                    const prev = prevLinkPositions.get(key) || {};
+                    const current = {
+                        x1: d.source.fisheye?.x ?? d.source.x,
+                        y1: d.source.fisheye?.y ?? d.source.y,
+                        x2: d.target.fisheye?.x ?? d.target.x,
+                        y2: d.target.fisheye?.y ?? d.target.y
+                    };
+                    if (JSON.stringify(prev) !== JSON.stringify(current)) {
+                        d3.select(this)
+                            .attr("x1", current.x1)
+                            .attr("y1", current.y1)
+                            .attr("x2", current.x2)
+                            .attr("y2", current.y2);
+                        prevLinkPositions.set(key, current);
+                    }
                 });
+
+                // Batch node updates
+                node.each(function(d: any) {
+                    const prev = prevNodePositions.get(d.id) || {};
+                    const current = {
+                        cx: d.fisheye?.x ?? d.x,
+                        cy: d.fisheye?.y ?? d.y,
+                        r: d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS * 2 : BASE_NODE_RADIUS * (d.fisheye?.z ?? 1)
+                    };
+                    if (JSON.stringify(prev) !== JSON.stringify(current)) {
+                        d3.select(this)
+                            .attr("cx", current.cx)
+                            .attr("cy", current.cy)
+                            .attr("r", current.r);
+                        prevNodePositions.set(d.id, current);
+                    }
+                });
+
+                // Batch label updates
+                label.each(function(d: any) {
+                    const prev = prevNodePositions.get(d.id) || {};
+                    const current = {
+                        x: (d.fisheye?.x ?? d.x) + ((d.fisheye?.x ?? d.x) > rootX ? LABEL_OFFSET_X : -LABEL_OFFSET_X),
+                        y: (d.fisheye?.y ?? d.y) + ((d.fisheye?.y ?? d.y) > rootY ? LABEL_OFFSET_Y : -LABEL_OFFSET_Y),
+                        "text-anchor": (d.fisheye?.x ?? d.x) > rootX ? "start" : "end",
+                        "dominant-baseline": (d.fisheye?.y ?? d.y) > rootY ? "hanging" : "text-top",
+                        "font-size": `${(d.data.name === 'Dinosauria' ? 16 : 10) * (d.fisheye?.z ?? 1) / zoomTransform.k}px`
+                    };
+                    if (JSON.stringify(prev) !== JSON.stringify(current)) {
+                        d3.select(this)
+                            .attr("x", current.x)
+                            .attr("y", current.y)
+                            .attr("text-anchor", current["text-anchor"])
+                            .attr("dominant-baseline", current["dominant-baseline"])
+                            .attr("font-size", current["font-size"]);
+                        prevNodePositions.set(d.id, current);
+                    }
+                });
+            });
         }
 
         // Apply fisheye distortion
@@ -194,12 +221,24 @@
             updatePositions();
         }
 
+        // Update fisheye based on current zoom and mouse position
+        function updateFisheye(mouse: [number, number]) {
+            const invertedMouse = zoomTransform.invert(mouse);
+            fisheye.focus(invertedMouse);
+            fisheye.radius(75 / zoomTransform.k);
+            fisheye.distortion(0.8 / zoomTransform.k);
+
+            if (animationFrameID) { 
+                cancelAnimationFrame(animationFrameID);
+            }
+            animationFrameID = requestAnimationFrame(applyFisheye);
+        }
+
         // Add mousemove
         svgElement.on("mousemove", (event: MouseEvent) => {
             updateFisheye(d3.pointer(event, svgElement.node()));
         });
 
-        simulation.on("tick",updatePositions)
 
         // Add drag behavior
         const dragBehavior = drag<SVGCircleElement, any>()
@@ -247,6 +286,7 @@
 
             nodeElement.attr("fill", HIGHLIGHT_COLOR);
             labelElement.attr("fill", HIGHLIGHT_COLOR);
+            labelElement.attr("fill-opacity", 1);
         }
 
         function handleMouseOut(event: any, d: any) {
@@ -255,6 +295,7 @@
 
             nodeElement.attr("fill", (d: any) => d.children ? "#555" : "#999");
             labelElement.attr("fill", "#fff");
+            labelElement.attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5);
         }
 
         return simulation;
