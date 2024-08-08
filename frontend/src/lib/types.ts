@@ -32,5 +32,6 @@ export interface Dinosaur {
     id: string;
     name: string;
     children?: TreeNode[];
-    type: 'taxon' | 'species';
+    type?: 'taxon' | 'species';
+    expanded?: boolean;
 }

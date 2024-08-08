@@ -84,6 +84,7 @@
         // Add zoom behavior
         const zoom = d3.zoom<SVGSVGElement, unknown>()
             .scaleExtent([0.5, 5])
+            .translateExtent([[-450, -450], [width + 450, height + 450]])
             .on("zoom", (event) => {
                 zoomTransform = event.transform;
                 g.attr("transform", zoomTransform.toString());
@@ -138,8 +139,7 @@
             .force("x", d3.forceX().strength(xStrength))
             .force("y", d3.forceY().strength(yStrength))
             .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS).strength(1.2).iterations(2))
-            .alphaDecay(0.06)
-            .alphaMin(0.001)
+            .alphaDecay(0.05)
             
             
         simulation.on("tick",updatePositions)
@@ -151,7 +151,6 @@
 
         function updatePositions() {
             requestAnimationFrame(() => {
-                // Batch link updates
                 link.each(function(d: any) {
                     const key = `${d.source.id}-${d.target.id}`;
                     const prev = prevLinkPositions.get(key) || {};
@@ -171,7 +170,6 @@
                     }
                 });
 
-                // Batch node updates
                 node.each(function(d: any) {
                     const prev = prevNodePositions.get(d.id) || {};
                     const current = {
@@ -188,7 +186,6 @@
                     }
                 });
 
-                // Batch label updates
                 label.each(function(d: any) {
                     const prev = prevNodePositions.get(d.id) || {};
                     const current = {
@@ -211,6 +208,7 @@
             });
         }
 
+
         // Apply fisheye distortion
         function applyFisheye() {
             animationFrameID = null;
@@ -225,7 +223,7 @@
         function updateFisheye(mouse: [number, number]) {
             const invertedMouse = zoomTransform.invert(mouse);
             fisheye.focus(invertedMouse);
-            fisheye.radius(75 / zoomTransform.k);
+            fisheye.radius(75);
             fisheye.distortion(0.8 / zoomTransform.k);
 
             if (animationFrameID) { 
@@ -246,6 +244,7 @@
             .on('drag', dragged)
             .on('end', dragended);
 
+
         function dragstarted(event: any, d: any) {
             if (!event.active) simulation.alphaTarget(0.3).restart();
             d.fx = d.x;
@@ -255,7 +254,7 @@
         function dragged(event: any, d: any) {
             d.fx = event.x;
             d.fy = event.y;
-            
+
             if (dragAnimationFrameId) {
                 cancelAnimationFrame(dragAnimationFrameId);
             }
@@ -269,7 +268,7 @@
             if (!event.active) simulation.alphaTarget(0);
             d.fx = null;
             d.fy = null;
-            
+
             if (dragAnimationFrameId) {
                 cancelAnimationFrame(dragAnimationFrameId);
             }
@@ -278,6 +277,7 @@
                 dragAnimationFrameId = null;
             });
         }
+
         node.call(dragBehavior as any);
 
         function handleMouseOver(event: any, d: any) {
