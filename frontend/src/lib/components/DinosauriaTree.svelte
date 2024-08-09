@@ -8,6 +8,12 @@
     import { drag } from 'd3-drag';
     import { browser } from '$app/environment';
 
+    // D3 selections
+    let nodeSelection: d3.Selection<SVGCircleElement, d3.HierarchyNode<TreeNode>, SVGGElement, unknown>;
+    let linkSelection: d3.Selection<SVGLineElement, d3.HierarchyLink<TreeNode>, SVGGElement, unknown>;
+    let labelSelection: d3.Selection<SVGTextElement, d3.HierarchyNode<TreeNode>, SVGGElement, unknown>;
+    let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+
     // State variables
     let data: TreeNode;
     let loading = true;
@@ -59,6 +65,8 @@
         // Clear existing content
         d3.select('svg').selectAll("*").remove();
 
+        data.expanded = true;   
+
         // Set up dimensions and root position
         const width = 1200;
         const height = 500;
@@ -79,7 +87,7 @@
             .attr("style", "max-width: 85%; height: 75%;");
 
         // Create a group for zoom functionality
-        const g = svgElement.append("g");        
+        g = svgElement.append("g");        
 
         // Add zoom behavior
         const zoom = d3.zoom<SVGSVGElement, unknown>()
@@ -99,30 +107,31 @@
             fisheye.distortion(0.8);
 
         // Add links (edges between nodes)
-        const link = g.append("g")
+        linkSelection = g.append("g")
             .attr("stroke", "#999")
             .attr("stroke-opacity", 0.6)
-            .selectAll("line")
+            .selectAll<SVGLineElement, d3.HierarchyLink<TreeNode>>("line")
             .data(links)
             .join("line");
 
         // Add nodes
-        const node = g.append("g")
+        nodeSelection = g.append("g")
             .attr("fill", "#fff")
             .attr("stroke", "#000")
             .attr("stroke-width", 1.5)
             .attr("stroke-opacity", 0.5)
-            .selectAll("circle")
+            .selectAll<SVGCircleElement, d3.HierarchyNode<TreeNode>>("circle")
             .data(nodes)
             .join("circle")
             .attr("fill", (d: any) => d.children ? "#555" : "#999") // Different color for leaf nodes
             .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*2 : BASE_NODE_RADIUS)
             .on("mouseover", handleMouseOver)
-            .on("mouseout", handleMouseOut);
+            .on("mouseout", handleMouseOut)
+            .on("click", handleNodeClick);
 
         // Add text labels for nodes
-        const label = g.append("g")
-            .selectAll("text")
+        labelSelection = g.append("g")
+            .selectAll<SVGTextElement, d3.HierarchyNode<TreeNode>>("text")
             .data(nodes)
             .join("text")
             .text((d: any) => d.data.name)
@@ -151,7 +160,7 @@
 
         function updatePositions() {
             requestAnimationFrame(() => {
-                link.each(function(d: any) {
+                linkSelection.each(function(d: any) {
                     const key = `${d.source.id}-${d.target.id}`;
                     const prev = prevLinkPositions.get(key) || {};
                     const current = {
@@ -170,7 +179,7 @@
                     }
                 });
 
-                node.each(function(d: any) {
+                nodeSelection.each(function(d: any) {
                     const prev = prevNodePositions.get(d.id) || {};
                     const current = {
                         cx: d.fisheye?.x ?? d.x,
@@ -181,12 +190,13 @@
                         d3.select(this)
                             .attr("cx", current.cx)
                             .attr("cy", current.cy)
-                            .attr("r", current.r);
+                            .attr("r", current.r)
+                            .call(dragBehavior as any);
                         prevNodePositions.set(d.id, current);
                     }
                 });
 
-                label.each(function(d: any) {
+                labelSelection.each(function(d: any) {
                     const prev = prevNodePositions.get(d.id) || {};
                     const current = {
                         x: (d.fisheye?.x ?? d.x) + ((d.fisheye?.x ?? d.x) > rootX ? LABEL_OFFSET_X : -LABEL_OFFSET_X),
@@ -212,7 +222,7 @@
         // Apply fisheye distortion
         function applyFisheye() {
             animationFrameID = null;
-            node.each((d: any) => {
+            nodeSelection.each((d: any) => {
                 const distorted = fisheye({ x: d.fx || d.x, y: d.fy || d.y }) as FisheyePoint;
                 d.fisheye = distorted;
             });
@@ -239,10 +249,29 @@
 
 
         // Add drag behavior
-        const dragBehavior = drag<SVGCircleElement, any>()
-            .on('start', dragstarted)
-            .on('drag', dragged)
-            .on('end', dragended);
+        let dragTimeout: ReturnType<typeof setTimeout> | undefined;
+        
+        const dragBehavior = d3.drag<SVGCircleElement, d3.HierarchyNode<TreeNode>>()
+            .on('start', (event, d) => {
+                event.sourceEvent.stopPropagation(); // Prevent click event from firing
+                dragTimeout = setTimeout(() => {
+                    dragTimeout = undefined;
+                    dragstarted(event, d);
+                }, 10); // ms delay
+            })
+            .on('drag', (event, d) => {
+                dragged(event, d);
+            })
+            .on('end', (event, d) => {
+                if (dragTimeout) {
+                    clearTimeout(dragTimeout);
+                    dragTimeout = undefined;
+                    // It was just a click, not a drag
+                    handleNodeClick(event, d);
+                } else {
+                    dragended(event, d);
+                }
+            });
 
 
         function dragstarted(event: any, d: any) {
@@ -278,11 +307,11 @@
             });
         }
 
-        node.call(dragBehavior as any);
+        nodeSelection.call(dragBehavior as any);
 
         function handleMouseOver(event: any, d: any) {
             const nodeElement = d3.select(event.target);
-            const labelElement = label.filter((labelD: any) => labelD.data.name === d.data.name);
+            const labelElement = labelSelection.filter((labelD: any) => labelD.data.name === d.data.name);
 
             nodeElement.attr("fill", HIGHLIGHT_COLOR);
             labelElement.attr("fill", HIGHLIGHT_COLOR);
@@ -291,11 +320,138 @@
 
         function handleMouseOut(event: any, d: any) {
             const nodeElement = d3.select(event.target);
-            const labelElement = label.filter((labelD: any) => labelD.data.name === d.data.name);
+            const labelElement = labelSelection.filter((labelD: any) => labelD.data.name === d.data.name);
 
             nodeElement.attr("fill", (d: any) => d.children ? "#555" : "#999");
             labelElement.attr("fill", "#fff");
             labelElement.attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5);
+        }
+
+        function handleNodeClick(event: MouseEvent, d: d3.HierarchyNode<TreeNode>) {
+            if (d.data.type === 'species') {
+                console.log("Clicked on species:", d.data.name);
+            }
+
+            if (d.data.type === 'taxon') {
+                console.log("Clicked on taxon:", d.data.name);
+                toggleExpanded(d);
+                updateVisualization();
+            }
+        }
+
+        function toggleExpanded(d: d3.HierarchyNode<TreeNode>) {
+            d.data.expanded = !d.data.expanded;
+            if (!d.data.expanded) {
+                // Collapse all descendants
+                d.descendants().forEach(node => {
+                    if (node !== d) node.data.expanded = false;
+                });
+            }
+        }
+
+        function updateVisualization() {
+            if (!data) return;
+            const root = d3.hierarchy(data);
+            const nodes = filterExpandedNodes(root);
+            const links = root.links().filter(link => 
+                nodes.includes(link.source) && nodes.includes(link.target)
+            );
+
+            const oldNodes = nodeSelection.data();
+            const nodeMap = new Map(oldNodes.map(d => [d.data.id, d]));
+
+            // Assign positions to new nodes
+            nodes.forEach((node: any) => {
+                const oldNode = nodeMap.get(node.data.id);
+                if (oldNode) {
+                    node.x = oldNode.x;
+                    node.y = oldNode.y;
+                } else if (node.parent) {
+                    const parent = node.parent as any;
+                    node.x = parent.x + (Math.random() - 0.5) * 50;
+                    node.y = parent.y + (Math.random() - 0.5) * 50;
+                } else {
+                    node.x = width / 2;
+                    node.y = height / 2;
+                }
+            });
+
+            // Update nodes
+            nodeSelection = nodeSelection.data(nodes, (d: any) => d.data.id)
+                .join(
+                    enter => enter.append("circle")
+                        .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*2 : BASE_NODE_RADIUS)
+                        .attr("fill", (d: any) => d.children ? "#555" : "#999")
+                        .attr("cx", d => (d as any).x)
+                        .attr("cy", d => (d as any).y)
+                        .call(drag as any)
+                        .on("mouseover", handleMouseOver)
+                        .on("mouseout", handleMouseOut)
+                        .on("click", handleNodeClick),
+                    update => update
+                        .attr("fill", (d: any) => d.children ? (d.data.expanded ? "#777" : "#555") : "#999"),
+                    exit => exit.remove()
+                );
+
+            // Update links
+            linkSelection = linkSelection.data(links, (d: any) => `${d.source.data.id}-${d.target.data.id}`)
+                .join(
+                    enter => enter.append("line")
+                        .attr("stroke", "#999")
+                        .attr("stroke-opacity", 0.6),
+                    update => update,
+                    exit => exit.remove()
+                );
+
+            // Update labels
+            labelSelection = labelSelection.data(nodes, (d: any) => d.data.id)
+                .join(
+                    enter => enter.append("text")
+                        .attr("x", d => (d as any).x)
+                        .attr("y", d => (d as any).y)
+                        .text((d: any) => d.data.name)
+                        .attr("font-size", d => d.data.name === 'Dinosauria' ? 16 : 10)
+                        .attr("dy", "0.31em")
+                        .attr("fill", "#fff")
+                        .attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5),
+                    update => update,
+                    exit => exit.remove()
+                );
+
+
+
+            // Restart the simulation with custom forces
+            simulation.nodes(nodes as d3.HierarchyNode<TreeNode>[]);
+            simulation.force('link', d3.forceLink(links).id((d: any) => d.data.id).distance(30).strength(1))
+                .force('link', d3.forceLink(links).id((d: any) => d.id).distance(linkDistance).strength(linkStrength))
+                .force('charge', d3.forceManyBody().strength(chargeStrength))
+                .force('center', d3.forceCenter(width / 2, height / 2).strength(centerStrength))
+                .force("x", d3.forceX().strength(xStrength))
+                .force("y", d3.forceY().strength(yStrength))
+                .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS).strength(1.2).iterations(2))
+                .alphaDecay(0.1)
+
+            // Run the simulation
+            simulation.alpha(.05).restart();
+
+            simulation.on("tick", () => {
+                updatePositions();
+            });
+        }
+
+        function filterExpandedNodes(root: d3.HierarchyNode<TreeNode>) {
+            return root.descendants().filter(d => {
+                if (d.parent) {
+                    let ancestor: d3.HierarchyNode<TreeNode> | null = d.parent;
+                    while (ancestor) {
+                        if (!ancestor.data.expanded && ancestor !== d) {
+                            return false;
+                        }
+                        ancestor = ancestor.parent;
+                    }
+                }
+                return true;
+            });
         }
 
         return simulation;
