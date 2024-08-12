@@ -9,7 +9,8 @@ export function buildTaxonomyTree(dinosaurs: Dinosaur[], taxa: Taxon[]): TreeNod
             id: taxon.id,
             name: taxon.name,
             children: [],
-            type: 'taxon'
+            type: 'taxon',
+            expanded: false
         });
     });
 
@@ -30,7 +31,8 @@ export function buildTaxonomyTree(dinosaurs: Dinosaur[], taxa: Taxon[]): TreeNod
         const speciesNode: TreeNode = {
             id: dinosaur.id,
             name: dinosaur.name,
-            type: 'species'
+            type: 'species',
+            expanded: true,
         };
 
         let currentNode: TreeNode | undefined;
@@ -65,6 +67,9 @@ export function buildTaxonomyTree(dinosaurs: Dinosaur[], taxa: Taxon[]): TreeNod
     // Find the root node (Dinosauria)
     const root = Array.from(taxaMap.values()).find(node => node.name === 'Dinosauria');
     if (!root) throw new Error("Root taxon (Dinosauria) not found");
+
+    console.log("Root node:", root);
+    console.log("Tree structure:", JSON.stringify(root, null, 2));
 
     return root;
 }

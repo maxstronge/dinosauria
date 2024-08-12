@@ -28,7 +28,7 @@
       font-weight: 100;
     }
     :global(body) {
-        background-color: rgb(28, 29, 34);
+        background-color: #13151a;
     }
     :global(*) {
         color: #ffffff; /* Change text color to white */
