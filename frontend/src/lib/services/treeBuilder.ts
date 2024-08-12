@@ -32,7 +32,7 @@ export function buildTaxonomyTree(dinosaurs: Dinosaur[], taxa: Taxon[]): TreeNod
             id: dinosaur.id,
             name: dinosaur.name,
             type: 'species',
-            expanded: false
+            expanded: true,
         };
 
         let currentNode: TreeNode | undefined;

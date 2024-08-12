@@ -76,8 +76,10 @@
         // Compute the graph
         const root = d3.hierarchy(data);
         console.log("Hierarchy created:", root);
-        const links = root.links();
-        const nodes = root.descendants();
+        const nodes = filterExpandedNodes(root);
+        const links = root.links().filter(link => 
+            nodes.includes(link.source) && nodes.includes(link.target)
+        );
 
         // Create SVG element
         const svgElement = d3.select("svg")
@@ -104,11 +106,11 @@
         // Setup fisheye distortion
         fisheye = createFisheye() as FisheyeFunction;
         fisheye.radius(75)
-            fisheye.distortion(0.8);
+        fisheye.distortion(1);
 
         // Add links (edges between nodes)
         linkSelection = g.append("g")
-            .attr("stroke", "#999")
+            .attr("stroke", "var(--link-color)")
             .attr("stroke-opacity", 0.6)
             .selectAll<SVGLineElement, d3.HierarchyLink<TreeNode>>("line")
             .data(links)
@@ -116,15 +118,20 @@
 
         // Add nodes
         nodeSelection = g.append("g")
-            .attr("fill", "#fff")
-            .attr("stroke", "#000")
-            .attr("stroke-width", 1.5)
-            .attr("stroke-opacity", 0.5)
+            .attr("fill", "var(--node-default)")
+            .attr("stroke", "var(--stroke-color)")
             .selectAll<SVGCircleElement, d3.HierarchyNode<TreeNode>>("circle")
             .data(nodes)
             .join("circle")
-            .attr("fill", (d: any) => d.children ? "#555" : "#999") // Different color for leaf nodes
-            .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*2 : BASE_NODE_RADIUS)
+            .attr("stroke-width", d => d.data.expanded ? "var(--stroke-width-default)" : "var(--stroke-width-collapsed)")
+            .attr("stroke-opacity", d => d.data.expanded ? "var(--stroke-opacity-default)" : "var(--stroke-opacity-collapsed)")
+            .attr("fill", (d: any) => {
+                if (d.children) {
+                    return d.data.expanded ? "var(--node-expanded)" : "var(--node-default)";
+                }
+                return "var(--node-leaf)";
+            })
+            .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*1.75 : BASE_NODE_RADIUS)
             .on("mouseover", handleMouseOver)
             .on("mouseout", handleMouseOut)
             .on("click", handleNodeClick);
@@ -137,7 +144,7 @@
             .text((d: any) => d.data.name)
             .attr("font-size", d => (d as any).data.name === 'Dinosauria' ? 16 : 10)
             .attr("dy", "0.31em")
-            .attr("fill", "#fff")
+            .attr("fill", "var(--text-color)")
             .attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5);
 
         // Set up force simulation
@@ -147,8 +154,9 @@
             .force('center', d3.forceCenter(width / 2, height / 2).strength(centerStrength))
             .force("x", d3.forceX().strength(xStrength))
             .force("y", d3.forceY().strength(yStrength))
-            .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS).strength(1.2).iterations(2))
+            .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS*1.2).strength(1.2).iterations(2))
             .alphaDecay(0.05)
+            .velocityDecay(0.6);
             
             
         simulation.on("tick",updatePositions)
@@ -203,8 +211,7 @@
                         y: (d.fisheye?.y ?? d.y) + ((d.fisheye?.y ?? d.y) > rootY ? LABEL_OFFSET_Y : -LABEL_OFFSET_Y),
                         "text-anchor": (d.fisheye?.x ?? d.x) > rootX ? "start" : "end",
                         "dominant-baseline": (d.fisheye?.y ?? d.y) > rootY ? "hanging" : "text-top",
-                        "font-size": `${(d.data.name === 'Dinosauria' ? 16 : 10) * (d.fisheye?.z ?? 1) / zoomTransform.k}px`
-                    };
+                        "font-size": `${(d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS * 2 : BASE_NODE_RADIUS) * (d.fisheye.z ?? 1) / zoomTransform.k}px`                    };
                     if (JSON.stringify(prev) !== JSON.stringify(current)) {
                         d3.select(this)
                             .attr("x", current.x)
@@ -257,7 +264,7 @@
                 dragTimeout = setTimeout(() => {
                     dragTimeout = undefined;
                     dragstarted(event, d);
-                }, 10); // ms delay
+                }, 8); // ms delay
             })
             .on('drag', (event, d) => {
                 dragged(event, d);
@@ -313,8 +320,8 @@
             const nodeElement = d3.select(event.target);
             const labelElement = labelSelection.filter((labelD: any) => labelD.data.name === d.data.name);
 
-            nodeElement.attr("fill", HIGHLIGHT_COLOR);
-            labelElement.attr("fill", HIGHLIGHT_COLOR);
+            nodeElement.attr("fill", "var(--node-highlight)");
+            labelElement.attr("fill", "var(--text-color-highlight)");
             labelElement.attr("fill-opacity", 1);
         }
 
@@ -322,8 +329,8 @@
             const nodeElement = d3.select(event.target);
             const labelElement = labelSelection.filter((labelD: any) => labelD.data.name === d.data.name);
 
-            nodeElement.attr("fill", (d: any) => d.children ? "#555" : "#999");
-            labelElement.attr("fill", "#fff");
+            nodeElement.attr("fill", (d: any) => d.children ? "var(--node-default)" : "var(--node-leaf)");
+            labelElement.attr("fill", "var(--text-color)");
             labelElement.attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5);
         }
 
@@ -334,12 +341,12 @@
 
             if (d.data.type === 'taxon') {
                 console.log("Clicked on taxon:", d.data.name);
-                toggleExpanded(d);
+                toggleExpanded(event, d);
                 updateVisualization();
             }
         }
 
-        function toggleExpanded(d: d3.HierarchyNode<TreeNode>) {
+        function toggleExpanded(event: MouseEvent, d: d3.HierarchyNode<TreeNode>) {
             d.data.expanded = !d.data.expanded;
             if (!d.data.expanded) {
                 // Collapse all descendants
@@ -347,8 +354,18 @@
                     if (node !== d) node.data.expanded = false;
                 });
             }
+
+            // Immediately update the visual properties of the clicked node
+            d3.select(event.target as SVGCircleElement)
+                .attr("stroke-width", d.data.expanded ? "var(--stroke-width-default)" : "var(--stroke-width-collapsed)")
+                .attr("stroke-opacity", d.data.expanded ? "var(--stroke-opacity-default)" : "var(--stroke-opacity-collapsed)")
+                .attr("fill", d.children ? (d.data.expanded ? "var(--node-expanded)" : "var(--node-default)") : "var(--node-leaf)");
+
+            updateVisualization();
         }
 
+
+        // update the visualization whenever a branch is expanded / collapsed
         function updateVisualization() {
             if (!data) return;
             const root = d3.hierarchy(data);
@@ -380,24 +397,30 @@
             nodeSelection = nodeSelection.data(nodes, (d: any) => d.data.id)
                 .join(
                     enter => enter.append("circle")
-                        .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS*2 : BASE_NODE_RADIUS)
-                        .attr("fill", (d: any) => d.children ? "#555" : "#999")
+                        .attr("r", d => d.data.name === 'Dinosauria' ? BASE_NODE_RADIUS * 1.75 : BASE_NODE_RADIUS)
                         .attr("cx", d => (d as any).x)
                         .attr("cy", d => (d as any).y)
                         .call(drag as any)
                         .on("mouseover", handleMouseOver)
                         .on("mouseout", handleMouseOut)
                         .on("click", handleNodeClick),
-                    update => update
-                        .attr("fill", (d: any) => d.children ? (d.data.expanded ? "#777" : "#555") : "#999"),
+                    update => update,
                     exit => exit.remove()
-                );
+                )
+                .attr("fill", (d: any) => {
+                    if (d.children) {
+                        return d.data.expanded ? "var(--node-expanded)" : "var(--node-default)";
+                    }
+                    return "var(--node-leaf)";
+                })
+                .attr("stroke-width", d => d.data.expanded ? "var(--stroke-width-default)" : "var(--stroke-width-collapsed)")
+                .attr("stroke-opacity", d => d.data.expanded ? "var(--stroke-opacity-default)" : "var(--stroke-opacity-collapsed)");
 
             // Update links
             linkSelection = linkSelection.data(links, (d: any) => `${d.source.data.id}-${d.target.data.id}`)
                 .join(
                     enter => enter.append("line")
-                        .attr("stroke", "#999")
+                        .attr("stroke", "var(--link-color)")
                         .attr("stroke-opacity", 0.6),
                     update => update,
                     exit => exit.remove()
@@ -412,7 +435,7 @@
                         .text((d: any) => d.data.name)
                         .attr("font-size", d => d.data.name === 'Dinosauria' ? 16 : 10)
                         .attr("dy", "0.31em")
-                        .attr("fill", "#fff")
+                        .attr("fill", "var(--text-color)")
                         .attr("fill-opacity", d => d.data.name === 'Dinosauria' ? 1 : 0.5),
                     update => update,
                     exit => exit.remove()
@@ -422,14 +445,14 @@
 
             // Restart the simulation with custom forces
             simulation.nodes(nodes as d3.HierarchyNode<TreeNode>[]);
-            simulation.force('link', d3.forceLink(links).id((d: any) => d.data.id).distance(30).strength(1))
-                .force('link', d3.forceLink(links).id((d: any) => d.id).distance(linkDistance).strength(linkStrength))
-                .force('charge', d3.forceManyBody().strength(chargeStrength))
+            simulation.force('link', d3.forceLink(links).id((d: any) => d.id).distance(linkDistance).strength(linkStrength))
+                .force('charge', d3.forceManyBody().strength((d: any) => d.children ? chargeStrength * 1.5 : chargeStrength))
                 .force('center', d3.forceCenter(width / 2, height / 2).strength(centerStrength))
                 .force("x", d3.forceX().strength(xStrength))
                 .force("y", d3.forceY().strength(yStrength))
-                .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS).strength(1.2).iterations(2))
-                .alphaDecay(0.1)
+                .force("collide", d3.forceCollide().radius(BASE_NODE_RADIUS*1.2).strength(1.2).iterations(2))
+                .alphaDecay(0.05)
+                .velocityDecay(0.6);
 
             // Run the simulation
             simulation.alpha(.05).restart();
@@ -501,6 +524,23 @@
 {/if}
 
 <style>
+    :global(:root) {
+        /* Color variables */
+        --node-default: #555;
+        --node-leaf: #999;
+        --node-highlight: #e0e0e0;
+        --link-color: #999;
+        --text-color: #e0e0e0;
+        --text-color-highlight: #fff;
+
+        /* Stroke variables */
+        --stroke-color: #1a1a1a;
+        --stroke-width-default: 1;
+        --stroke-width-collapsed: 3;
+        --stroke-opacity-default: 0.5;
+        --stroke-opacity-collapsed: 0.3;
+
+    }
     :global(text) {
         font-family: 'Raleway', sans-serif;
     }
