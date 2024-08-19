@@ -93,7 +93,7 @@
 
         // Add zoom behavior
         const zoom = d3.zoom<SVGSVGElement, unknown>()
-            .scaleExtent([0.5, 5])
+            .scaleExtent([0.5, 8])
             .translateExtent([[-450, -450], [width + 450, height + 450]])
             .on("zoom", (event) => {
                 zoomTransform = event.transform;
